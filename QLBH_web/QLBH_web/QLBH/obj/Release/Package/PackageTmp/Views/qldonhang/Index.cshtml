@@ -1,0 +1,200 @@
+﻿@model IEnumerable<QLBH.Models.DonHangViewModel>
+
+@{
+    ViewBag.Title = "Quản lý Đơn hàng";
+
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+    }
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+
+    .cen-header { color:@cenGreen; font-weight:700; }
+    .cen-table thead { background-color:@cenGreen; color:white; }
+    .cen-table tbody tr:hover { background-color:#e9f6f5; transition:.25s; }
+
+    .btn-outline-warning {
+        border:2px solid @cenOrange !important; color:@cenOrange !important;
+        font-weight:600; border-radius:6px; transition:.3s;
+    }
+    .btn-outline-warning:hover { background:@cenOrange !important; color:white !important; }
+
+    .btn-add {
+        background-color:@cenOrange !important; color:white !important;
+        font-weight:600; border-radius:6px; transition:.3s;
+    }
+    .btn-add:hover { background-color:#ff9b2f !important; }
+
+    .search-box {
+        border:2px solid @cenGreen; width:260px;
+        padding:6px 12px; border-radius:6px;
+    }
+    .search-box:focus { border-color:@cenOrange; }
+
+    select.trangThai {
+        min-width: 130px;
+        border: 2px solid @cenOrange;
+        border-radius: 6px;
+        color: @cenGreen;
+        font-weight: 600;
+    }
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="cen-header">
+            <i class="bi bi-bag-check-fill"></i> Quản lý đơn hàng
+        </h2>
+
+        <div class="d-flex gap-2">
+
+            <!-- NÚT DUYỆT HOÀN TRẢ MỚI THÊM -->
+            <a href="/QLDonHang/YeuCauHoanTra" class="btn btn-outline-warning">
+                <i class="bi bi-arrow-repeat"></i> Duyệt hoàn trả
+            </a>
+
+            @using (Html.BeginForm("Index", "QLDonHang", FormMethod.Get))
+            {
+                <input type="text" name="search" class="form-control search-box"
+                       placeholder="🔍 Tìm đơn hàng..." value="@Request["search"]" />
+            }
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+            @if (TempData["SuccessMessage"] != null)
+            {<div class="alert alert-success text-center">@TempData["SuccessMessage"]</div>}
+
+            @if (TempData["ErrorMessage"] != null)
+            {<div class="alert alert-danger text-center">@TempData["ErrorMessage"]</div>}
+
+            <table class="table table-hover align-middle mb-0 cen-table text-center">
+                <thead>
+                    <tr>
+                        <th>Mã ĐH</th>
+                        <th>Khách hàng</th>
+                        <th>Ngày đặt</th>
+                        <th>Trạng thái</th>
+                        <th>Mã SP</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Đơn giá</th>
+                        <th>Thành tiền</th>
+                        <th>Tổng đơn hàng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var dh in Model)
+                        {
+                            bool firstRow = true;
+                            foreach (var ct in dh.ChiTiet)
+                            {
+                                <tr>
+                                    @if (firstRow)
+                                    {
+                                        <td rowspan="@dh.ChiTiet.Count">@dh.MaDH</td>
+                                        <td rowspan="@dh.ChiTiet.Count">@dh.HoTen</td>
+                                        <td rowspan="@dh.ChiTiet.Count">@dh.NgayDat.ToString("dd/MM/yyyy")</td>
+                                        <td rowspan="@dh.ChiTiet.Count">
+                                            <select class="form-select trangThai" data-madh="@dh.MaDH">
+                                                <option value="Đang xử lý" @(dh.TrangThai == "Đang xử lý" ? "selected" : "")>Đang xử lý</option>
+                                                <option value="Đang giao hàng" @(dh.TrangThai == "Đang giao hàng" ? "selected" : "")>Đang giao hàng</option>
+                                                <option value="Hoàn thành" @(dh.TrangThai == "Hoàn thành" ? "selected" : "")>Hoàn thành</option>
+                                                <option value="Đã hủy" @(dh.TrangThai == "Đã hủy" ? "selected" : "")>Đã hủy</option>
+                                            </select>
+                                        </td>
+                                    }
+
+                                    <td>@ct.MaSP</td>
+                                    <td>@ct.TenSP</td>
+                                    <td>@ct.SoLuong</td>
+                                    <td>@string.Format("{0:N0} ₫", ct.DonGia)</td>
+                                    <td>@string.Format("{0:N0} ₫", ct.ThanhTien)</td>
+
+                                    @if (firstRow)
+                                    {
+                                        <td rowspan="@dh.ChiTiet.Count" class="fw-bold text-success">
+                                            @string.Format("{0:N0} ₫", dh.TongTien)
+                                        </td>
+                                        firstRow = false;
+                                    }
+                                </tr>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <tr><td colspan="10" class="text-muted py-3">Không có dữ liệu đơn hàng.</td></tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".trangThai").change(function () {
+
+                let maDH = $(this).data("madh");
+                let trangThai = $(this).val();
+
+                $.ajax({
+                    url: '/QLDonHang/UpdateTrangThai',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        maDH: maDH,
+                        trangThai: trangThai
+                    },
+                    success: function (res) {
+                        if (res.success) {
+                            Swal.fire({
+                                icon: "success",
+                                title: "Cập nhật thành công!",
+                                text: res.message,
+                                timer: 1500,
+                                showConfirmButton: false
+                            });
+                        } else {
+                            Swal.fire({
+                                icon: "error",
+                                title: "Thất bại",
+                                text: res.message
+                            });
+                        }
+                    },
+                    error: function (xhr) {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Lỗi",
+                            text: "Không thể cập nhật trạng thái đơn hàng."
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

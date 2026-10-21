@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Đặt hàng thành công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+.success-card {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.success-card:hover {
+    transform: translateY(-3px);
+}
+.success-card h2 {
+    color: #F7941D;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.success-card p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+.success-card hr {
+    border-top: 2px solid #eee;
+    margin: 25px 0;
+}
+.success-card .btn {
+    min-width: 180px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+@@media (max-width: 576px) {
+    .success-card {
+        padding: 25px 15px;
+    }
+    .success-card h2 {
+        font-size: 1.6rem;
+    }
+}
+</style>
+
+<div class="container">
+    <div class="success-card text-center">
+        <i class="fa-solid fa-circle-check fa-3x mb-3" style="color:#28a745;"></i>
+        <h2 class="mb-4">ĐẶT HÀNG THÀNH CÔNG!</h2>
+
+        <p><strong>Mã đơn hàng:</strong> @ViewBag.MaDH</p>
+        <p><strong>Người nhận:</strong> @ViewBag.HoTen</p>
+        <p><strong>Địa chỉ:</strong> @ViewBag.DiaChi</p>
+        <p><strong>Tổng tiền:</strong> @String.Format("{0:N0}", ViewBag.TongTien) VNĐ</p>
+        <p><strong>Phương thức thanh toán:</strong> @ViewBag.PhuongThuc</p>
+
+        <hr />
+
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+            <a href="@Url.Action("DownloadInvoice", "Checkout", new { maDH = ViewBag.MaDH })"
+               class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-file-pdf me-2"></i> Tải hóa đơn PDF
+            </a>
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary btn-lg">
+                <i class="fa-solid fa-arrow-right me-2"></i> Tiếp tục mua hàng
+            </a>
+        </div>
+    </div>
+</div>

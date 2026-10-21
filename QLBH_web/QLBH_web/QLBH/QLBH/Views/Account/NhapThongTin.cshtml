@@ -1,0 +1,51 @@
+﻿@model QLBH.Models.KhachHangViewModel
+@{
+    ViewBag.Title = "Cập nhật thông tin khách hàng";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="~/Content/style.css" />
+
+<div class="login-container">
+    <div class="logo">
+        <img src="~/Content/logo.png" alt="Logo" />
+    </div>
+
+    <h2>Điền thông tin</h2>
+    <div style="color:red">@Html.ValidationSummary(true, "", new { @class = "text-danger summary-error" })</div>
+    @using (Html.BeginForm("NhapThongTin", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.TenDangNhap)
+
+        <div class="input-group">
+            <label for="TenKH">Họ và tên</label>
+            @Html.TextBoxFor(m => m.TenKH, new { @class = "form-control", placeholder = "Nhập họ và tên" })
+            <div style="color:red">@Html.ValidationMessageFor(m => m.TenKH, "", new { @class = "text-danger" })</div>
+
+        </div>
+
+        <div class="input-group">
+            <label for="DiaChi">Địa chỉ</label>
+            @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control", placeholder = "Nhập địa chỉ" })
+            <div style="color:red">@Html.ValidationMessageFor(m => m.DiaChi, "", new { @class = "text-danger" })</div>
+        </div>
+
+        <div class="input-group">
+            <label for="Email">Email</label>
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Nhập email" })
+            <div style="color:red">@Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })</div>
+
+        </div>
+
+        <div class="input-group">
+            <label for="SDT">Số điện thoại</label>
+            @Html.TextBoxFor(m => m.SDT, new { @class = "form-control", placeholder = "Nhập số điện thoại" })
+            <div style="color:red">@Html.ValidationMessageFor(m => m.SDT, "", new { @class = "text-danger" })</div>
+
+        </div>
+
+        <button type="submit" class="btn btn-success">Lưu thông tin</button>
+    }
+</div>

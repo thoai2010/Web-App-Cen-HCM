@@ -1,0 +1,30 @@
+﻿@model QLBH.Models.NhanVien
+@{
+    ViewBag.Title = "Trang chủ nhân viên";
+    Layout = "~/Views/Shared/_NhanVien.cshtml";
+}
+<div class="container py-4">
+    <h2 class="mb-4">Thông tin cá nhân</h2>
+    <div class="card p-4 shadow-sm" style="max-width: 600px;">
+        <div class="text-center mb-3">
+            @{
+                string hinh = Model.AnhDaiDien ?? "";
+                string corrected = hinh.StartsWith("/Content")
+                    ? hinh.Replace("/Content", "")
+                    : hinh;
+            }
+
+            <img src="/Content/images/nhanvien/@corrected"
+                 onerror="this.src='@Url.Content("~/Content/images/no-image.png")'" 
+                 alt="Ảnh đại diện"
+                class="rounded-circle"
+                style="width:120px;height:120px;object-fit:cover;"/>
+        </div>
+        <p><strong>Mã nhân viên:</strong> @Model.MaNV</p>
+        <p><strong>Họ tên:</strong> @Model.HoTen</p>
+        <p><strong>Chức vụ:</strong> @Model.ChucVu</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Số điện thoại:</strong> @Model.SoDienThoai</p>
+        <p><strong>Tên đăng nhập:</strong> @Model.TenDangNhap</p>
+    </div>
+</div>

@@ -1,0 +1,1687 @@
+C:\Nam4\c#\QLBH\QLBH\bin\QLBH.dll.config
+C:\Nam4\c#\QLBH\QLBH\bin\QLBH.dll
+C:\Nam4\c#\QLBH\QLBH\bin\QLBH.pdb
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csc.exe
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csc.exe.config
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csc.rsp
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csi.exe
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csi.exe.config
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\csi.rsp
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Console.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\vbc.exe
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\vbc.exe.config
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\vbc.rsp
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+C:\Nam4\c#\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+C:\Nam4\c#\QLBH\QLBH\bin\Antlr3.Runtime.dll
+C:\Nam4\c#\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Nam4\c#\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+C:\Nam4\c#\QLBH\QLBH\bin\Newtonsoft.Json.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Helpers.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Mvc.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Optimization.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Razor.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+C:\Nam4\c#\QLBH\QLBH\bin\WebGrease.dll
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Helpers.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Mvc.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Optimization.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.Razor.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+C:\Nam4\c#\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+C:\Nam4\c#\QLBH\QLBH\bin\Newtonsoft.Json.xml
+C:\Nam4\c#\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+C:\Nam4\c#\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Nam4\c#\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\Nam4\c#\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\Nam4\c#\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+C:\Nam4\c#\QLBH\QLBH\obj\Debug\QLBH.dll
+C:\Nam4\c#\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp001.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp002.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp003.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp004.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp005.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp006.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp007.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp008.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp009.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp010.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp011.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp012.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp013.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp014.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp015.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp016.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp017.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp018.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp019.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp020.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp021.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp022.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp023.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp024.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp025.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp026.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp027.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp028.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp029.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp030.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp031.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp032.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp033.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp034.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp035.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp036.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp037.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp038.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp039.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp040.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp041.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp042.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp043.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp044.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp045.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp046.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp047.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp048.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp049.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp050.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp051.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp052.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp053.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp054.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp055.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp056.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp057.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp058.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp059.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp060.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp061.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp062.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp063.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp064.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp065.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp066.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp067.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp068.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp069.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp070.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp071.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp072.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp073.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp074.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp075.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp076.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp077.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp078.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp079.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp080.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp081.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp082.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp083.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp084.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp085.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp086.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp087.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp088.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp089.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp090.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp091.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp092.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp093.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp094.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp095.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp096.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp097.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp098.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp099.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp100.png
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\QLBH.dll.config
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\QLBH.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\QLBH.pdb
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csc.exe
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csc.exe.config
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csc.rsp
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csi.exe
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csi.exe.config
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\csi.rsp
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Console.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe.config
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\vbc.rsp
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Helpers.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Mvc.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Optimization.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Razor.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\WebGrease.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Helpers.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Mvc.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Optimization.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Razor.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\obj\Debug\QLBH.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\BouncyCastle.Crypto.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\itextsharp.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\itextsharp.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Buffers.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Memory.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Http.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.dll
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Buffers.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Memory.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Http.xml
+D:\Khóa luận tốt nghiệp\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp001.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp002.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp003.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp004.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp005.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp006.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp007.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp008.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp009.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp010.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp011.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp012.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp013.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp014.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp015.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp016.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp017.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp018.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp019.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp020.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp021.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp022.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp023.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp024.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp025.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp026.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp027.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp028.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp029.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp030.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp031.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp032.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp033.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp034.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp035.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp036.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp037.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp038.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp039.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp040.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp041.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp042.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp043.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp044.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp045.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp046.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp047.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp048.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp049.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp050.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp051.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp052.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp053.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp054.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp055.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp056.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp057.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp058.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp059.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp060.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp061.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp062.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp063.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp064.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp065.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp066.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp067.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp068.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp069.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp070.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp071.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp072.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp073.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp074.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp075.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp076.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp077.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp078.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp079.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp080.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp081.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp082.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp083.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp084.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp085.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp086.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp087.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp088.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp089.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp090.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp091.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp092.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp093.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp094.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp095.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp096.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp097.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp098.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp099.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Content\images\sanpham\sp100.png
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\QLBH.dll.config
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\QLBH.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\QLBH.pdb
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\BouncyCastle.Crypto.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\itextsharp.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Buffers.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Memory.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Http.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\WebGrease.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\itextsharp.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Buffers.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Memory.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Http.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\obj\Debug\QLBH.dll
+C:\Users\Admin\Downloads\New folder (3)\QLBHThoai\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp001.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp002.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp003.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp004.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp005.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp006.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp007.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp008.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp009.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp010.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp011.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp012.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp013.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp014.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp015.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp016.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp017.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp018.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp019.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp020.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp021.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp022.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp023.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp024.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp025.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp026.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp027.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp028.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp029.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp030.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp031.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp032.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp033.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp034.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp035.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp036.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp037.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp038.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp039.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp040.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp041.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp042.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp043.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp044.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp045.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp046.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp047.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp048.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp049.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp050.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp051.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp052.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp053.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp054.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp055.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp056.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp057.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp058.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp059.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp060.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp061.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp062.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp063.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp064.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp065.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp066.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp067.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp068.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp069.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp070.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp071.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp072.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp073.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp074.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp075.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp076.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp077.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp078.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp079.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp080.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp081.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp082.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp083.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp084.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp085.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp086.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp087.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp088.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp089.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp090.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp091.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp092.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp093.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp094.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp095.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp096.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp097.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp098.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp099.png
+D:\QLBH (3)\QLBH\QLBH\bin\Content\images\sanpham\sp100.png
+D:\QLBH (3)\QLBH\QLBH\bin\QLBH.dll.config
+D:\QLBH (3)\QLBH\QLBH\bin\QLBH.dll
+D:\QLBH (3)\QLBH\QLBH\bin\QLBH.pdb
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csc.exe
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csc.exe.config
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csc.rsp
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csi.exe
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csi.exe.config
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\csi.rsp
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Console.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\vbc.exe
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\vbc.exe.config
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\vbc.rsp
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\QLBH (3)\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\QLBH (3)\QLBH\QLBH\bin\Antlr3.Runtime.dll
+D:\QLBH (3)\QLBH\QLBH\bin\BouncyCastle.Crypto.dll
+D:\QLBH (3)\QLBH\QLBH\bin\itextsharp.dll
+D:\QLBH (3)\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\QLBH (3)\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\QLBH (3)\QLBH\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\QLBH (3)\QLBH\QLBH\bin\Newtonsoft.Json.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Buffers.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Memory.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Net.Http.Formatting.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Numerics.Vectors.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Helpers.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Http.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Http.WebHost.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Mvc.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Optimization.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Razor.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.dll
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\QLBH (3)\QLBH\QLBH\bin\WebGrease.dll
+D:\QLBH (3)\QLBH\QLBH\bin\itextsharp.xml
+D:\QLBH (3)\QLBH\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\QLBH (3)\QLBH\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Buffers.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Memory.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Net.Http.Formatting.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Numerics.Vectors.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Http.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Http.WebHost.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Helpers.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Mvc.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Optimization.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.Razor.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\QLBH (3)\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\QLBH (3)\QLBH\QLBH\bin\Newtonsoft.Json.xml
+D:\QLBH (3)\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+D:\QLBH (3)\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\QLBH (3)\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\QLBH (3)\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\QLBH (3)\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\QLBH (3)\QLBH\QLBH\obj\Debug\QLBH.dll
+D:\QLBH (3)\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp001.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp002.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp003.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp004.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp005.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp006.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp007.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp008.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp009.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp010.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp011.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp012.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp013.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp014.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp015.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp016.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp017.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp018.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp019.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp020.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp021.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp022.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp023.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp024.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp025.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp026.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp027.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp028.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp029.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp030.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp031.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp032.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp033.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp034.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp035.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp036.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp037.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp038.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp039.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp040.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp041.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp042.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp043.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp044.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp045.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp046.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp047.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp048.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp049.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp050.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp051.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp052.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp053.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp054.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp055.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp056.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp057.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp058.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp059.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp060.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp061.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp062.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp063.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp064.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp065.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp066.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp067.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp068.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp069.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp070.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp071.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp072.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp073.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp074.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp075.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp076.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp077.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp078.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp079.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp080.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp081.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp082.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp083.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp084.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp085.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp086.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp087.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp088.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp089.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp090.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp091.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp092.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp093.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp094.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp095.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp096.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp097.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp098.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp099.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp100.png
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\QLBH.dll.config
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\QLBH.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\QLBH.pdb
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csc.exe
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csc.exe.config
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csc.rsp
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csi.exe
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csi.exe.config
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\csi.rsp
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Console.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe.config
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\vbc.rsp
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\BouncyCastle.Crypto.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\itextsharp.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Buffers.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Memory.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Helpers.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Http.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Mvc.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Optimization.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Razor.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\WebGrease.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\itextsharp.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Buffers.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Memory.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Http.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Helpers.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Mvc.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Optimization.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.Razor.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+D:\QLBH (3)\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\QLBH (3)\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\QLBH (3)\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\QLBH (3)\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\QLBH (3)\QLBH\QLBH\QLBH\obj\Debug\QLBH.dll
+D:\QLBH (3)\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp001.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp002.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp003.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp004.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp005.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp006.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp007.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp008.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp009.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp010.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp011.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp012.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp013.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp014.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp015.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp016.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp017.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp018.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp019.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp020.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp021.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp022.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp023.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp024.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp025.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp026.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp027.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp028.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp029.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp030.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp031.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp032.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp033.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp034.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp035.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp036.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp037.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp038.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp039.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp040.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp041.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp042.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp043.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp044.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp045.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp046.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp047.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp048.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp049.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp050.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp051.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp052.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp053.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp054.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp055.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp056.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp057.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp058.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp059.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp060.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp061.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp062.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp063.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp064.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp065.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp066.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp067.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp068.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp069.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp070.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp071.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp072.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp073.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp074.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp075.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp076.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp077.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp078.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp079.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp080.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp081.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp082.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp083.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp084.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp085.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp086.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp087.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp088.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp089.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp090.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp091.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp092.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp093.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp094.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp095.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp096.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp097.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp098.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp099.png
+D:\QLBH\QLBH\QLBH\bin\Content\images\sanpham\sp100.png
+D:\QLBH\QLBH\QLBH\bin\QLBH.dll.config
+D:\QLBH\QLBH\QLBH\bin\QLBH.dll
+D:\QLBH\QLBH\QLBH\bin\QLBH.pdb
+D:\QLBH\QLBH\QLBH\bin\roslyn\csc.exe
+D:\QLBH\QLBH\QLBH\bin\roslyn\csc.exe.config
+D:\QLBH\QLBH\QLBH\bin\roslyn\csc.rsp
+D:\QLBH\QLBH\QLBH\bin\roslyn\csi.exe
+D:\QLBH\QLBH\QLBH\bin\roslyn\csi.exe.config
+D:\QLBH\QLBH\QLBH\bin\roslyn\csi.rsp
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\QLBH\QLBH\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.AppContext.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Console.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Http.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe
+D:\QLBH\QLBH\QLBH\bin\roslyn\vbc.exe.config
+D:\QLBH\QLBH\QLBH\bin\roslyn\vbc.rsp
+D:\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\QLBH\QLBH\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.dll
+D:\QLBH\QLBH\QLBH\bin\BouncyCastle.Crypto.dll
+D:\QLBH\QLBH\QLBH\bin\itextsharp.dll
+D:\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\QLBH\QLBH\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.dll
+D:\QLBH\QLBH\QLBH\bin\System.Buffers.dll
+D:\QLBH\QLBH\QLBH\bin\System.Memory.dll
+D:\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.dll
+D:\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.dll
+D:\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Helpers.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Http.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Mvc.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Optimization.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.Razor.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.dll
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\QLBH\QLBH\QLBH\bin\WebGrease.dll
+D:\QLBH\QLBH\QLBH\bin\itextsharp.xml
+D:\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\QLBH\QLBH\QLBH\bin\System.Buffers.xml
+D:\QLBH\QLBH\QLBH\bin\System.Memory.xml
+D:\QLBH\QLBH\QLBH\bin\System.Net.Http.Formatting.xml
+D:\QLBH\QLBH\QLBH\bin\System.Numerics.Vectors.xml
+D:\QLBH\QLBH\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\QLBH\QLBH\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Http.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Http.WebHost.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Helpers.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Mvc.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Optimization.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.Razor.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\QLBH\QLBH\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\QLBH\QLBH\QLBH\bin\Newtonsoft.Json.xml
+D:\QLBH\QLBH\QLBH\bin\Antlr3.Runtime.pdb
+D:\QLBH\QLBH\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\QLBH\QLBH\QLBH\obj\Debug\QLBH.dll
+D:\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp001.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp002.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp003.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp004.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp005.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp006.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp007.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp008.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp009.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp010.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp011.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp012.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp013.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp014.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp015.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp016.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp017.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp018.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp019.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp020.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp021.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp022.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp023.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp024.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp025.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp026.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp027.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp028.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp029.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp030.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp031.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp032.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp033.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp034.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp035.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp036.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp037.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp038.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp039.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp040.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp041.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp042.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp043.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp044.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp045.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp046.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp047.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp048.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp049.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp050.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp051.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp052.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp053.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp054.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp055.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp056.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp057.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp058.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp059.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp060.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp061.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp062.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp063.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp064.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp065.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp066.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp067.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp068.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp069.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp070.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp071.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp072.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp073.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp074.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp075.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp076.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp077.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp078.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp079.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp080.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp081.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp082.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp083.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp084.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp085.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp086.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp087.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp088.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp089.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp090.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp091.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp092.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp093.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp094.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp095.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp096.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp097.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp098.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp099.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Content\images\sanpham\sp100.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\QLBH.dll.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\QLBH.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\QLBH.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csc.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csc.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csc.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csi.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csi.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\csi.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.AppContext.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Console.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Net.Http.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\vbc.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\vbc.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\vbc.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Antlr3.Runtime.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\BouncyCastle.Crypto.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\itextsharp.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Newtonsoft.Json.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Buffers.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Memory.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Net.Http.Formatting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Numerics.Vectors.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Helpers.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Http.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Http.WebHost.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Mvc.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Optimization.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Razor.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\WebGrease.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\itextsharp.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Buffers.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Memory.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Net.Http.Formatting.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Numerics.Vectors.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Http.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Http.WebHost.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Helpers.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Mvc.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Optimization.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.Razor.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Newtonsoft.Json.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Antlr3.Runtime.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\obj\Debug\QLBH.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH\obj\Debug\QLBH.pdb
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp001.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp002.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp003.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp004.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp005.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp006.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp007.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp008.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp009.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp010.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp011.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp012.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp013.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp014.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp015.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp016.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp017.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp018.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp019.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp020.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp021.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp022.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp023.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp024.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp025.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp026.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp027.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp028.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp029.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp030.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp031.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp032.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp033.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp034.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp035.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp036.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp037.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp038.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp039.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp040.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp041.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp042.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp043.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp044.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp045.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp046.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp047.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp048.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp049.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp050.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp051.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp052.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp053.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp054.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp055.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp056.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp057.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp058.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp059.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp060.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp061.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp062.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp063.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp064.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp065.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp066.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp067.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp068.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp069.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp070.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp071.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp072.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp073.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp074.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp075.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp076.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp077.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp078.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp079.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp080.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp081.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp082.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp083.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp084.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp085.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp086.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp087.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp088.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp089.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp090.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp091.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp092.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp093.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp094.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp095.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp096.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp097.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp098.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp099.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp100.png
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\QLBH.dll.config
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\QLBH.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\QLBH.pdb
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\BouncyCastle.Crypto.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\itextsharp.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Buffers.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Memory.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Helpers.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Mvc.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Razor.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\WebGrease.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\itextsharp.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Buffers.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Memory.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Helpers.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Mvc.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.Razor.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.Up2Date
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.dll
+C:\Users\Admin\Downloads\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp001.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp002.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp003.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp004.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp005.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp006.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp007.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp008.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp009.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp010.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp011.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp012.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp013.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp014.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp015.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp016.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp017.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp018.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp019.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp020.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp021.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp022.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp023.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp024.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp025.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp026.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp027.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp028.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp029.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp030.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp031.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp032.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp033.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp034.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp035.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp036.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp037.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp038.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp039.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp040.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp041.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp042.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp043.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp044.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp045.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp046.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp047.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp048.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp049.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp050.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp051.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp052.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp053.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp054.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp055.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp056.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp057.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp058.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp059.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp060.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp061.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp062.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp063.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp064.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp065.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp066.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp067.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp068.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp069.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp070.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp071.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp072.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp073.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp074.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp075.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp076.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp077.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp078.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp079.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp080.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp081.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp082.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp083.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp084.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp085.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp086.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp087.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp088.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp089.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp090.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp091.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp092.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp093.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp094.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp095.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp096.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp097.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp098.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp099.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Content\images\sanpham\sp100.png
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\QLBH.dll.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\QLBH.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\QLBH.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csc.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\csi.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.AppContext.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Collections.Immutable.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Console.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Globalization.Calendars.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Net.Http.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Net.Sockets.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.ValueTuple.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\vbc.rsp
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\roslyn\VBCSCompiler.exe.config
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Antlr3.Runtime.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\BouncyCastle.Crypto.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\itextsharp.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Microsoft.Web.Infrastructure.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Buffers.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Memory.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Net.Http.Formatting.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Numerics.Vectors.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Helpers.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.WebHost.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Mvc.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Optimization.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Razor.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\WebGrease.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\itextsharp.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.Bson.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Buffers.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Memory.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Net.Http.Formatting.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Numerics.Vectors.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Threading.Tasks.Extensions.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Http.WebHost.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Helpers.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Mvc.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Optimization.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.Razor.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Deployment.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\System.Web.WebPages.Razor.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Newtonsoft.Json.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Antlr3.Runtime.pdb
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.csproj.Up2Date
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.dll
+D:\Khóa luận tốt nghiệp\B98_NguyenThiThuTam\Source code\QLBH_web\QLBH_web\QLBH\obj\Debug\QLBH.pdb

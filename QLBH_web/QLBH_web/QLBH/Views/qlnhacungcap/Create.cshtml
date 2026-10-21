@@ -1,0 +1,78 @@
+﻿@model QLBH.Models.NhaCungCap
+@{
+    ViewBag.Title = "Thêm Nhà cung cấp";
+
+    // Lấy vai trò từ Session
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    // Nếu là admin thì dùng AdminLayout
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+
+    } }
+    <div class="container mt-5">
+        <h2 class="text-center mb-4 text-success">Thêm nhà cung cấp</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success text-center">@TempData["SuccessMessage"]</div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger text-center">@TempData["ErrorMessage"]</div>
+        }
+
+        @using (Html.BeginForm("Create", "QLNhaCungCap", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+            <div class="card shadow p-4 mx-auto" style="max-width:650px;">
+
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Mã nhà cung cấp</label>
+                    <input type="text" name="MaNCC" class="form-control" value="@ViewBag.NewMaNCC" readonly />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Tên nhà cung cấp</label>
+                    @Html.TextBoxFor(m => m.TenNCC, new { @class = "form-control", placeholder = "Nhập tên NCC", required = "required" })
+                    @Html.ValidationMessageFor(m => m.TenNCC, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="fw-bold">Địa chỉ</label>
+                    @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control", placeholder = "Nhập địa chỉ" })
+                    @Html.ValidationMessageFor(m => m.DiaChi, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group mb-4">
+                    <label class="fw-bold">Số điện thoại</label>
+                    @Html.TextBoxFor(m => m.SDT, new
+                    {
+                        @class = "form-control",
+                        placeholder = "Ví dụ: 0912345678",
+                        pattern = "[0-9]{10,11}",
+                        title = "SĐT phải gồm 10–11 chữ số"
+                    })
+                    @Html.ValidationMessageFor(m => m.SDT, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success px-4">
+                        💾 Lưu
+                    </button>
+                    <a href="@Url.Action("Index", "QLNhaCungCap")" class="btn btn-secondary px-4">
+                        ⬅ Quay lại
+                    </a>
+                </div>
+
+            </div>
+        }
+    </div>

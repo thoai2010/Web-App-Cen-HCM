@@ -1,0 +1,187 @@
+﻿@{
+    ViewBag.Title = "Chat Tư Vấn Sản Phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Sử dụng layout đã có
+
+    // Định nghĩa màu sắc
+    string cenGreen = "#005F59";
+    string cenGray = "#f1f1f1"; // Màu nền cho tin nhắn AI
+    string cenBlue = "#007bff"; // Màu nền cho tin nhắn Người dùng
+}
+
+<style>
+    /* CSS CƠ BẢN */
+    /* CHỈNH SỬA CHIỀU CAO MESSAGES LỚN HƠN */
+    #messages {
+        height: 70vh; /* Tăng chiều cao lên 70% chiều cao màn hình */
+        max-height: 700px; /* Giới hạn chiều cao tối đa */
+        overflow-y: auto;
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        scroll-behavior: smooth; /* Cuộn mượt hơn */
+    }
+
+    /* KHUNG TIN NHẮN CHUNG */
+    .message-container {
+        display: flex;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    /* KHUNG BAO QUANH (SPEECH BUBBLE) */
+    .message-bubble {
+        padding: 8px 12px;
+        border-radius: 18px;
+        max-width: 80%;
+        line-height: 1.4;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+
+    /* TIN NHẮN CỦA AI (BÊN TRÁI) */
+    .ai-message {
+        justify-content: flex-start;
+        font-size:20px;
+    }
+    .ai-message .message-bubble {
+        background: @cenGray;
+        color: #333;
+        border-bottom-left-radius: 4px;
+    }
+
+    /* TIN NHẮN CỦA BẠN (BÊN PHẢI) */
+    .user-message {
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+    .user-message .message-bubble {
+        background: @cenBlue;
+        color: white;
+        border-bottom-right-radius: 4px;
+    }
+
+    /* Cố định Header để nút Quay lại và Tiêu đề luôn hiển thị */
+    .chat-header {
+        position: relative;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Căn giữa tiêu đề */
+    }
+
+    .chat-header h2 {
+        margin: 0;
+    }
+
+    .back-button {
+        position: absolute;
+        left: 0;
+        /* Điều chỉnh màu sắc và kích thước nút nếu cần */
+        background-color: #6c757d;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .back-button:hover {
+        background-color: #5a6268;
+        color: white;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        @* MỞ RỘNG CHIỀU RỘNG SANG col-lg-8 *@
+        <div class="col-lg-8 col-md-10">
+
+            <div class="chat-header">
+                @* NÚT QUAY LẠI CHUYỂN HƯỚNG VỀ TRANG CHỦ *@
+                <a href="@Url.Action("Index", "Home")" class="btn back-button">
+                    <i class="fa-solid fa-arrow-left me-1"></i> Quay lại
+                </a>
+                <h2 class="text-center">Chat Tư Vấn Sản Phẩm</h2>
+            </div>
+
+            <div id="chatbox" style="border:1px solid #ccc; padding:15px; border-radius:10px;">
+                <div id="messages"></div>
+
+                <div class="input-group">
+                    <input id="msg" class="form-control" placeholder="Nhập câu hỏi..." />
+                    <button id="sendBtn" class="btn" style="background:@cenGreen; color:white;">Gửi</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    // Hàm hiển thị tin nhắn AI
+    function displayAiMessage(text, isError = false) {
+        let style = isError ? 'style="background-color: #fdd; color: red;"' : '';
+        // Thay thế \n bằng <br> để xuống dòng
+        let messageHtml = `<div class="message-container ai-message">
+                            <div class="message-bubble" ${style}>${text.replace(/\n/g, '<br>')}</div>
+                        </div>`;
+        $("#messages").append(messageHtml);
+        $("#messages").scrollTop($("#messages")[0].scrollHeight);
+    }
+
+    // Hàm hiển thị tin nhắn Người dùng
+    function displayUserMessage(text) {
+        let messageHtml = `<div class="message-container user-message">
+                            <div class="message-bubble">${text}</div>
+                        </div>`;
+        $("#messages").append(messageHtml);
+        $("#messages").scrollTop($("#messages")[0].scrollHeight);
+    }
+
+    // Gửi tin nhắn và nhận phản hồi từ server
+    function sendMsg() {
+        let text = $("#msg").val().trim();
+        if(text === "") return;
+
+        // 1. HIỂN THỊ TIN NHẮN NGƯỜI DÙNG (BÊN PHẢI)
+        displayUserMessage(text);
+
+        $("#msg").val("").focus();
+
+        // 2. GỌI AJAX ĐẾN CONTROLLER ĐỂ LẤY CÂU TRẢ LỜI
+        $.post('@Url.Action("Ask","Chat")', { message: text }, function (data) {
+
+            // 3. HIỂN THỊ TIN NHẮN AI (BÊN TRÁI)
+            displayAiMessage(data.reply);
+
+        }).fail(function(jqXHR){
+            let errorMsg = "Lỗi kết nối server. Vui lòng thử lại.";
+            displayAiMessage(`<b>Lỗi:</b> ${errorMsg}`, true);
+        });
+    }
+
+    // Hàm hiển thị câu chào mừng khi trang load xong
+    function showWelcomeMessage() {
+        const welcomeText = "Chào bạn! Tôi là trợ lý tư vấn sản phẩm của CEN HCM. Hãy cho tôi biết bạn đang tìm kiếm loại sản phẩm nào hoặc có bất kỳ thắc mắc nào về sản phẩm nhé!";
+        displayAiMessage(welcomeText);
+    }
+
+
+    $(document).ready(function() {
+        // Tự động hiển thị lời chào khi trang được tải
+        showWelcomeMessage();
+
+        $("#sendBtn").click(sendMsg);
+
+        $("#msg").keypress(function(e){
+            // Xử lý sự kiện nhấn Enter (e.which === 13)
+            if(e.which === 13) { sendMsg(); return false; }
+        });
+    });
+    </script>
+}

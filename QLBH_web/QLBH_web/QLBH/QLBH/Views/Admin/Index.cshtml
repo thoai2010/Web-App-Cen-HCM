@@ -1,0 +1,133 @@
+﻿@model QLBH.Models.ThongKeViewModel
+@{
+    ViewBag.Title = "Trang quản trị - Thống kê";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    body { background-color: #f5f6f8; }
+    .cen-header { color: @cenGreen; font-weight: 700; }
+    .card-stat {
+        background: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        padding: 20px;
+    }
+    .stat-value {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .stat-title {
+        font-weight: 600;
+        color: @cenGreen;
+    }
+</style>
+
+<div class="container py-4">
+    <h2 class="text-center cen-header mb-4">📊 Báo cáo & Thống kê tổng hợp</h2>
+
+    <div class="row g-4 mb-4">
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-success">Doanh thu</div>
+                <div class="stat-value text-success">
+                    @string.Format("{0:N0} ₫", Model.TongDoanhThu)
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-danger">Công nợ (Chi phí nhập)</div>
+                <div class="stat-value text-danger">
+                    @string.Format("{0:N0} ₫", Model.TongCongNo)
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-warning">Tồn kho</div>
+                <div class="stat-value text-primary">@Model.SoLuongTonKho</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-info">Khách hàng</div>
+                <div class="stat-value text-info">@Model.TongKhachHang</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-8">
+            <div class="card p-3 shadow-sm">
+                <h5 class="text-center" style="color:@cenGreen;">Doanh thu & Chi phí theo tháng</h5>
+                <canvas id="chartDoanhThu"></canvas>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h5 class="text-center" style="color:@cenGreen;">Tỷ lệ sản phẩm theo loại</h5>
+                <canvas id="chartTyLe"></canvas>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+@section Scripts {
+    <script>
+    // 🔹 Biểu đồ cột: Doanh thu & Công nợ theo tháng
+    const ctx1 = document.getElementById('chartDoanhThu').getContext('2d');
+    new Chart(ctx1, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Thang)),
+            datasets: [
+                {
+                    label: 'Doanh thu',
+                    data: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.DoanhThuThang)),
+                    backgroundColor: '#1CA64C'
+                },
+                {
+                    label: 'Công nợ',
+                    data: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.CongNoThang)),
+                    backgroundColor: '#F94144'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true, ticks: { callback: v => v.toLocaleString() } }
+            }
+        }
+    });
+
+    // 🔹 Biểu đồ tròn: Tỷ lệ sản phẩm theo loại
+    const ctx2 = document.getElementById('chartTyLe').getContext('2d');
+    const loaiSP = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.TenLoaiSP));
+    const soLuongSP = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SoLuongTheoLoai));
+    new Chart(ctx2, {
+        type: 'pie',
+        data: {
+            labels: loaiSP,
+            datasets: [{
+                data: soLuongSP,
+                backgroundColor: ['#1CA64C', '#F7941D', '#007BFF', '#F94144', '#9B51E0']
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+    </script>
+}

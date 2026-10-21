@@ -1,0 +1,115 @@
+﻿@model QLBH.Models.NhanVien
+@{
+    ViewBag.Title = "Thêm Nhân viên";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color: @cenBgLight; }
+    .cen-header { color: @cenGreen; font-weight: 700; }
+    .card { border: none; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .btn-cen { background-color: @cenOrange; color: white; border: none; transition: .3s; }
+    .btn-cen:hover { background-color: #ff9b2f; }
+    .form-label { font-weight: 600; color: @cenGreen; }
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header"><i class="bi bi-person-plus-fill"></i> Thêm Nhân viên</h2>
+        <a href="@Url.Action("Index", "NhanVien")" class="text-decoration-none text-secondary">
+            <i class="bi bi-arrow-left"></i> Quay lại
+        </a>
+    </div>
+
+    <div class="card p-4">
+        @using (Html.BeginForm("Create", "NhanVien", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <img id="previewImg" src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+                         width="120" height="120" class="border mb-3" />
+                    <input type="file" name="AnhDaiDienFile" class="form-control" accept="image/*"
+                           onchange="previewImage(event)" />
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Mã Nhân viên</label>
+                            @Html.TextBoxFor(m => m.MaNV, new { @class = "form-control", placeholder = "VD: NV001", required = "required" })
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Tên Nhân viên</label>
+                            @Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", placeholder = "Nhập họ tên", required = "required" })
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Chức vụ</label>
+                            @Html.TextBoxFor(m => m.ChucVu, new { @class = "form-control", placeholder = "VD: Kinh doanh" })
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Email</label>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email" })
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Số điện thoại</label>
+                            @Html.TextBoxFor(m => m.SoDienThoai, new { @class = "form-control", placeholder = "VD: 0912345678" })
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Tài khoản đăng nhập</label>
+                            <select name="TenDangNhap" id="TenDangNhap" class="form-control" required>
+                                <option value="">-- Chọn tài khoản chưa gán --</option>
+                                @if (ViewBag.TaiKhoanRanh != null)
+                                {
+                                    foreach (var tk in ViewBag.TaiKhoanRanh as List<QLBH.Models.RegisterViewModel>)
+                                    {
+                                        <option value="@tk.TenDangNhap">@tk.TenDangNhap</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label">Trạng thái tài khoản</label>
+                            <input type="text" id="TrangThai" class="form-control" readonly />
+                        </div>
+                    </div>
+
+                    <div class="mt-4 text-end">
+                        <button type="submit" class="btn btn-cen px-4">
+                            <i class="bi bi-save"></i> Lưu
+                        </button>
+                        <a href="@Url.Action("Index", "NhanVien")" class="btn btn-secondary px-4">
+                            <i class="bi bi-x-circle"></i> Hủy
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                document.getElementById('previewImg').src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        function updateTrangThai() {
+            const select = document.getElementById('TenDangNhap');
+            const trangThai = select.options[select.selectedIndex].getAttribute('data-trangthai');
+            document.getElementById('TrangThai').value = trangThai || '';
+        }
+    </script>
+}

@@ -1,0 +1,122 @@
+﻿@model IEnumerable<QLBH.Models.SanPham>
+
+@{
+    ViewBag.Title = "Quản lý sản phẩm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+
+    .cen-header { color:@cenGreen; font-weight:700; }
+
+    .cen-table thead { background-color:@cenGreen; color:white; }
+    .cen-table tbody tr:hover { background-color:#e9f6f5; transition:.25s; }
+
+    .btn-add {
+        background:@cenOrange !important; color:white !important; font-weight:600;
+        border-radius:6px; padding:8px 15px; transition:.3s;
+    }
+    .btn-add:hover { background:#ff9b2f !important; }
+
+    .btn-outline-warning {
+        border:2px solid @cenOrange !important; color:@cenOrange !important;
+        font-weight:600; border-radius:6px; transition:.3s;
+    }
+    .btn-outline-warning:hover { background:@cenOrange !important; color:white !important; }
+
+    .img-sp {
+        width:60px; height:60px; object-fit:cover; border:1px solid #ccc;
+        border-radius:0; transition:.2s;
+    }
+    .img-sp:hover { transform:scale(1.08); }
+
+    .search-box {
+        border:2px solid @cenGreen; width:260px; padding:6px 12px; border-radius:6px;
+    }
+    .search-box:focus { border-color:@cenOrange; }
+
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header"><i class="bi bi-box-seam-fill"></i> Quản lý sản phẩm</h2>
+
+        <div class="d-flex gap-2">
+            <input type="text" id="searchInput" class="form-control search-box"
+                   placeholder="🔍 Tìm sản phẩm..." />
+
+            <a href="@Url.Action("Create","QLSanPham")" class="btn btn-add">
+                <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+            </a>
+            <a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Quay lại
+            </a>
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+
+            <table id="productTable" class="table table-hover align-middle mb-0 cen-table text-center">
+                <thead>
+                    <tr>
+                        <th>Hình ảnh</th>
+                        <th>Mã SP</th>
+                        <th>Tên SP</th>
+                        <th>Giá bán</th>
+                        <th>Số lượng tồn</th>
+                        <th>Loại</th>
+                        <th>Nhà cung cấp</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var sp in Model)
+                    {
+                        <tr>
+                            <td>
+                                @if (!string.IsNullOrEmpty(sp.Hinh))
+                                {
+                                    <img src="@Url.Content(sp.Hinh)" class="img-sp" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Không có ảnh</span>
+                                }
+                            </td>
+                            <td>@sp.MaSP</td>
+                            <td>@sp.TenSP</td>
+                            <td>@String.Format("{0:N0} ₫", sp.GiaBan)</td>
+                            <td>@sp.SLTon</td>
+                            <td>@sp.TenLoai</td>
+                            <td>@sp.TenNCC</td>
+                            <td>
+                                <a href="@Url.Action("Edit","QLSanPham", new { id = sp.MaSP.Trim() })"
+                                   class="btn btn-outline-warning btn-sm">
+                                    <i class="bi bi-pencil-square"></i> Sửa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("searchInput").addEventListener("keyup", function () {
+        var keyword = this.value.toLowerCase();
+        var rows = document.querySelectorAll("#productTable tbody tr");
+        rows.forEach(function (row) {
+            var name = row.cells[1].textContent.toLowerCase();
+            row.style.display = name.indexOf(keyword) > -1 ? "" : "none";
+        });
+    });
+</script>

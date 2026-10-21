@@ -1,0 +1,126 @@
+﻿    @model IEnumerable<QLBH.Models.NhanVien>
+
+    @{
+        ViewBag.Title = "Quản lý Nhân viên";
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        string cenGreen = "#005F59";
+        string cenOrange = "#F7941D";
+        string cenBgLight = "#F5F6F8";
+    }
+
+    <style>
+        body { background-color:@cenBgLight; }
+        .cen-header { color:@cenGreen; font-weight:700; }
+        .cen-table thead { background-color:@cenGreen; color:white; }
+        .cen-table tbody tr:hover { background-color:#e9f6f5; transition:.25s; }
+
+        .btn-edit, .btn-delete {
+            border:none; color:white; font-weight:600; padding:5px 15px;
+        }
+        .btn-edit { background-color:@cenOrange; }
+        .btn-delete { background-color:#dc3545; }
+        .btn-edit:hover { background-color:#ff9b2f; }
+        .btn-delete:hover { background-color:#b02a37; }
+
+        .img-nv {
+            width: 55px;
+            height: 55px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            border-radius: 0;
+            .btn-outline-warning
+
+        {
+            border: 2px solid #F7941D !important;
+            color: #F7941D !important;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn-outline-warning:hover {
+            background-color: #F7941D !important;
+            color: white !important;
+        }
+
+        .btn-outline-danger {
+            border: 2px solid #d9534f !important;
+            color: #d9534f !important;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+            .btn-outline-danger:hover {
+                background-color: #d9534f !important;
+                color: white !important;
+            }
+
+        .bi-pencil-square, .bi-trash3-fill {
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+        }
+    </style>
+
+    <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="cen-header"><i class="bi bi-people-fill"></i> Quản lý Nhân viên</h2>
+            <div class="d-flex gap-2">
+                <input type="text" id="searchBox" class="form-control search-box" placeholder="🔍 Tìm kiếm nhân viên..." style="width:250px;">
+                <a href="@Url.Action("Create", "QLNhanVien")" class="btn btn-edit"><i class="bi bi-plus-circle"></i> Thêm nhân viên</a>
+            </div>
+        </div>
+
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-0">
+                <table class="table table-hover align-middle mb-0 cen-table text-center">
+                    <thead>
+                        <tr>
+                            <th>Ảnh</th>
+                            <th>Mã NV</th>
+                            <th>Tên NV</th>
+                            <th>Chức vụ</th>
+                            <th>Email</th>
+                            <th>SĐT</th>
+                            <th>Tên đăng nhập</th>
+                            <th>Trạng thái</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var nv in Model)
+                        {
+                            <tr>
+                                <td><img src="@Url.Content("~/Content/images/nhanvien/" + nv.AnhDaiDien)" onerror="this.src='/Content/images/no-image.png'" class="img-nv" /></td>
+
+                                <td>@nv.MaNV</td>
+                                <td>@nv.HoTen</td>
+                                <td>@nv.ChucVu</td>
+                                <td>@nv.Email</td>
+                                <td>@nv.SoDienThoai</td>
+                                <td>@nv.TenDangNhap</td>
+                                <td>
+                                    @if (nv.TrangThai == "Hoạt động")
+                                    {<span class="badge bg-success">Hoạt động</span> }
+                                    else if (nv.TrangThai == "Khóa")
+                                    { <span class="badge bg-secondary">Khóa</span> }
+                                    else
+                                    { <span class="badge bg-warning text-dark">Chưa kích hoạt</span>}
+                                </td>
+                                <td>
+                                    <div class="d-flex justify-content-center gap-2">
+                                        <a href="@Url.Action("Edit", "QLNhanVien", new { id = nv.MaNV.Trim() })"
+                                           class="btn btn-outline-warning btn-sm">
+                                            <i class="bi bi-pencil-square"></i> Sửa
+                                        </a>
+                                       
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>

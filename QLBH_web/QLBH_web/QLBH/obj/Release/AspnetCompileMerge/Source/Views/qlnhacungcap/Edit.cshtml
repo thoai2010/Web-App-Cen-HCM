@@ -1,0 +1,99 @@
+﻿@model QLBH.Models.NhaCungCap
+@{
+    
+        ViewBag.Title = "Sửa thông tin nhà cung cấp";
+
+        // Lấy vai trò từ Session
+        var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+        // Nếu là admin thì dùng AdminLayout
+        if (role == "Admin" || role == "1")
+        {
+            Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_NhanVien.cshtml";
+
+        }
+        string cenGreen = "#005F59";
+        string cenOrange = "#F7941D";
+        string cenBgLight = "#F5F6F8";
+    }
+
+    <style>
+    body { background-color:@cenBgLight; }
+    .cen-header { color:@cenGreen; font-weight:700; }
+    .card { border:none; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .btn-cen { background-color:@cenOrange; color:white; border:none; transition:.3s; }
+    .btn-cen:hover { background-color:#ff9b2f; }
+    .form-label { font-weight:600; color:@cenGreen; }
+    .btn-back { color:@cenGreen; font-weight:500; text-decoration:none; }
+    .btn-back:hover { color:@cenOrange; text-decoration:underline; }
+    </style>
+
+    <div class="container py-4">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="cen-header"><i class="bi bi-truck"></i> Cập nhật Nhà cung cấp</h2>
+            <a href="@Url.Action("Index", "QLNhaCungCap")" class="btn-back">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+        </div>
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+        }
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+        }
+
+        <div class="card p-4">
+            @using (Html.BeginForm("Edit", "QLNhaCungCap", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(m => m.MaNCC)
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Mã nhà cung cấp</label>
+                        @Html.TextBoxFor(m => m.MaNCC, new { @class = "form-control", @readonly = "readonly" })
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Tên nhà cung cấp</label>
+                        @Html.TextBoxFor(m => m.TenNCC, new { @class = "form-control", required = "required" })
+                        @Html.ValidationMessageFor(m => m.TenNCC, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Địa chỉ</label>
+                        @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Số điện thoại</label>
+                        @Html.TextBoxFor(m => m.SDT, new
+                        {
+                            @class = "form-control",
+                            pattern = "[0-9]{10,11}",
+                            placeholder = "VD: 0912345678",
+                            title = "SĐT phải gồm 10–11 chữ số"
+                        })
+                    </div>
+                </div>
+
+                <div class="mt-4 text-end">
+                    <button type="submit" class="btn btn-cen px-4">
+                        <i class="bi bi-save"></i> Cập nhật
+                    </button>
+                    <a href="@Url.Action("Index","QLNhaCungCap")" class="btn btn-secondary px-4">
+                        <i class="bi bi-x-circle"></i> Hủy
+                    </a>
+                </div>
+            }
+        </div>
+    </div>

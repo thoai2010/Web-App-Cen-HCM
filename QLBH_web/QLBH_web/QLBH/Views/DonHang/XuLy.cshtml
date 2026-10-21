@@ -1,0 +1,134 @@
+﻿@model QLBH.Models.YeuCauXuLyViewModel
+@{
+    ViewBag.Title = "Xử lý đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    body { background: #f5f6f8; }
+
+    .form-box {
+        background: #fff;
+        border-radius: 14px;
+        padding: 28px;
+        border: 1px solid #e3e3e3;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.07);
+        max-width: 680px;
+        margin: auto;
+    }
+    .form-title {
+        font-size: 26px;
+        font-weight: 800;
+        color: @cenGreen;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+    }
+    .tag-type {
+        display: inline-block;
+        padding: 6px 14px;
+        background: #fff3cd;
+        color: #b88600;
+        font-weight: 600;
+        border-radius: 8px;
+        border: 1px solid #ffe49b;
+        margin-bottom: 18px;
+    }
+    .form-note {
+        font-size: 15px;
+        background: #eef9f8;
+        border-left: 4px solid @cenGreen;
+        padding: 10px 14px;
+        border-radius: 6px;
+        margin-bottom: 22px;
+        color: #444;
+    }
+    .btn-cen-green {
+        background: @cenGreen !important;
+        border-color: @cenGreen !important;
+        font-weight: 600;
+        padding: 11px 26px;
+        border-radius: 8px;
+        color: white !important;
+        font-size: 15px;
+    }
+    .btn-cen-green:hover { background: #004b48 !important; }
+
+    .btn-cancel {
+        background: #e0e0e0;
+        border-color: #d0d0d0;
+        color: #333 !important;
+        font-weight: 600;
+        padding: 11px 26px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    .btn-cancel:hover { background: #d5d5d5; }
+</style>
+
+<div class="container mt-4 mb-5">
+    <div class="form-box">
+
+        <!-- TIÊU ĐỀ -->
+        <div class="form-title">
+            @(Model.LoaiXuLy == "HuyDon"
+                ? "Hủy đơn hàng"
+                : "Yêu cầu hoàn tiền")
+        </div>
+
+        <!-- TYPE TAG -->
+        <div class="tag-type">
+            @(Model.LoaiXuLy == "HuyDon"
+                ? "Loại yêu cầu: Hủy đơn"
+                : "Loại yêu cầu: Hoàn tiền")
+        </div>
+
+        <div class="form-note">
+            <i class="fa fa-info-circle text-warning"></i>
+            Vui lòng cung cấp lý do để chúng tôi có thể xử lý yêu cầu nhanh chóng.
+        </div>
+
+        <!-- FORM -->
+        <form method="post">
+            @Html.HiddenFor(m => m.MaDH)
+            @Html.HiddenFor(m => m.LoaiXuLy)
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">
+                    Lý do <span class="text-danger">*</span>
+                </label>
+                @Html.TextAreaFor(m => m.LyDo, new
+                {
+                    @class = "form-control shadow-sm",
+                    rows = 4,
+                    placeholder = "Nhập lý do bạn muốn gửi yêu cầu..."
+                })
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Ghi chú thêm</label>
+                @Html.TextAreaFor(m => m.GhiChu, new
+                {
+                    @class = "form-control shadow-sm",
+                    rows = 3,
+                    placeholder = "Thông tin bổ sung (không bắt buộc)"
+                })
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <a href="/DonHang" class="btn btn-cancel">
+                    <i class="fa fa-arrow-left"></i> Quay lại
+                </a>
+
+                <button class="btn btn-cen-green">
+                    <i class="fa fa-paper-plane"></i> Gửi yêu cầu
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

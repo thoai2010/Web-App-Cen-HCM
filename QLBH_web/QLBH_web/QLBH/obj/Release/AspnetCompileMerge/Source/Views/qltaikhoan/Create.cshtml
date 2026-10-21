@@ -1,0 +1,61 @@
+﻿@model QLBH.Models.TaiKhoanViewModel
+
+@{
+    ViewBag.Title = "Tạo tài khoản nhân viên";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+    .cen-header { color:@cenGreen; font-weight:700; }
+    .card { border:none; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .btn-cen { background-color:@cenOrange; color:white; border:none; transition:.3s; }
+    .btn-cen:hover { background-color:#ff9b2f; }
+    .form-label { font-weight:600; color:@cenGreen; }
+</style>
+
+<div class="container py-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header"><i class="bi bi-person-plus-fill"></i> Tạo tài khoản nhân viên</h2>
+
+        <a href="@Url.Action("Index", "QLTaiKhoan")" class="text-decoration-none text-secondary">
+            <i class="bi bi-arrow-left"></i> Quay lại
+        </a>
+    </div>
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="card p-4">
+        @using (Html.BeginForm("Create", "QLTaiKhoan", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label">Tên đăng nhập</label>
+                @Html.TextBoxFor(m => m.TenDangNhap, new { @class = "form-control", placeholder = "Nhập tên đăng nhập", required = "required" })
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mật khẩu</label>
+                @Html.PasswordFor(m => m.MatKhau, new { @class = "form-control", placeholder = "Nhập mật khẩu", required = "required" })
+            </div>
+
+            <div class="text-end">
+                <button type="submit" class="btn btn-cen px-4">
+                    <i class="bi bi-arrow-right-circle"></i> Tiếp tục
+                </button>
+                <a href="@Url.Action("Index","QLTaiKhoan")" class="btn btn-secondary px-4">
+                    <i class="bi bi-x-circle"></i> Hủy
+                </a>
+            </div>
+        }
+    </div>
+</div>

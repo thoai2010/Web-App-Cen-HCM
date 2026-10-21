@@ -1,0 +1,120 @@
+﻿@model QLBH.Models.KhachHangViewModel
+@{
+    ViewBag.Title = "Thông tin cá nhân";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<style>
+    .profile-card {
+        background: white;
+        border-radius: 12px;
+        padding: 35px;
+        box-shadow: 0 4px 14px rgba(0,0,0,.1);
+    }
+    .profile-header {
+        background: @(cenGreen);
+        color: white;
+        padding: 18px;
+        border-radius: 12px 12px 0 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .btn-cen {
+        background: @(cenOrange);
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+    .btn-cen:hover {
+        background: #e78919;
+        color: white;
+    }
+    .avatar-wrap {
+        text-align: center;
+        margin-top: -60px;
+    }
+    .avatar-wrap img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 4px solid white;
+        object-fit: cover;
+    }
+</style>
+
+<div class="container my-5" style="max-width:650px;">
+    <div class="profile-header">
+        <i class="fa fa-user-circle"></i> Thông tin cá nhân
+    </div>
+
+    <div class="profile-card">
+
+        <div class="avatar-wrap mb-3">
+            @{
+                string path = string.IsNullOrEmpty(Model.AnhDaiDien)
+                    ? Url.Content("~/Content/images/no-image.png")
+                    : Url.Content("~/Content/" + Model.AnhDaiDien.TrimStart('/'));
+            }
+            @{
+                string raw = path ?? "";
+                string fixedPath = raw.StartsWith("/Content")
+                    ? raw.Replace("/Content", "")
+                    : raw;
+            }
+
+            <img src="@Url.Content("~/Content/images/khachhang/" + fixedPath)"
+                 class="img-fluid border rounded"
+                 onerror="this.src='@Url.Content("~/Content/images/no-image.png")'" />
+            <h5 class="mt-2 text-success">@Model.TenKH</h5>
+        </div>
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success text-center">@TempData["Message"]</div>
+        }
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-user"></i> Tên đăng nhập</label>
+                <input type="text" class="form-control" value="@Model.TenDangNhap" disabled>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-id-card"></i> Họ và tên</label>
+                @Html.TextBoxFor(m => m.TenKH, new { @class = "form-control", required = "required" })
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-envelope"></i> Email</label>
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", type = "email", required = "required" })
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-phone"></i> Số điện thoại</label>
+                @Html.TextBoxFor(m => m.SDT, new { @class = "form-control", required = "required" })
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-map-marker-alt"></i> Địa chỉ</label>
+                @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control" })
+            </div>
+
+            <button class="btn btn-cen w-100 mt-2 rounded-3">
+                <i class="fa fa-save"></i> Lưu thay đổi
+            </button>
+
+            <div class="text-center mt-3">
+                <a href="@Url.Action("DoiMatKhau","Account")" class="btn btn-outline-dark w-50 rounded-3">
+                    <i class="fa fa-lock"></i> Đổi mật khẩu
+                </a>
+            </div>
+        }
+    </div>
+</div>

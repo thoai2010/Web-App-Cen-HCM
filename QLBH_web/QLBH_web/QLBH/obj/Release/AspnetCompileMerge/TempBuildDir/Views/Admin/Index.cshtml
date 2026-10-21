@@ -1,0 +1,200 @@
+﻿@model QLBH.Models.ThongKeViewModel
+@{
+    ViewBag.Title = "Trang quản trị - Thống kê";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+    body { background-color: #f5f6f8; }
+    .cen-header { color: @cenGreen; font-weight: 700; }
+    .card-stat {
+        background: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        padding: 20px;
+    }
+    .stat-value {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .stat-title {
+        font-weight: 600;
+        color: @cenGreen;
+    }
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-2" style="margin-top: 10px;">
+        <h2 class="cen-header" style="margin:0; font-size:32px;">📊 Báo cáo & Thống kê tổng hợp</h2>
+
+        <button type="button" class="btn btn-success px-4 py-2" onclick="exportBaoCaoPDF()">
+            <i class="bi bi-file-earmark-pdf"></i> Xuất báo cáo tổng hợp
+        </button>
+    </div>
+
+    <div class="row g-4 mb-4 mt-3">
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-success">Doanh thu</div>
+                <div class="stat-value text-success">
+                    @string.Format("{0:N0} ₫", Model.TongDoanhThu)
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-danger">Công nợ (Chi phí nhập)</div>
+                <div class="stat-value text-danger">
+                    @string.Format("{0:N0} ₫", Model.TongCongNo)
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-warning">Tồn kho</div>
+                <div class="stat-value text-primary">@Model.SoLuongTonKho</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-stat">
+                <div class="stat-title text-info">Số lượng nhập</div>
+                <div class="stat-value text-info">@Model.SoLuongNhap</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-8">
+            <div class="card p-3 shadow-sm">
+                <h5 class="text-center" style="color:@cenGreen;">Doanh thu & Chi phí theo tháng</h5>
+                <canvas id="chartDoanhThu"></canvas>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 shadow-sm">
+                <h5 class="text-center" style="color:@cenGreen;">Tỷ lệ sản phẩm theo loại</h5>
+                <canvas id="chartTyLe"></canvas>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    <script>
+
+        var thongKe = {
+    doanhThu: "@Model.TongDoanhThu",
+    congNo: "@Model.TongCongNo",
+    tonKho: "@Model.SoLuongTonKho",
+    soLuongNhap: "@Model.SoLuongNhap"
+};
+
+
+    // 🔹 Biểu đồ cột: Doanh thu & Công nợ theo tháng
+    const ctx1 = document.getElementById('chartDoanhThu').getContext('2d');
+    new Chart(ctx1, {
+        type: 'bar',
+        data: {
+            labels: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.Thang)),
+            datasets: [
+                {
+                    label: 'Doanh thu',
+                    data: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.DoanhThuThang)),
+                    backgroundColor: '#1CA64C'
+                },
+                {
+                    label: 'Công nợ',
+                    data: @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.CongNoThang)),
+                    backgroundColor: '#F94144'
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true, ticks: { callback: v => v.toLocaleString() } }
+            }
+        }
+    });
+
+    // 🔹 Biểu đồ tròn: Tỷ lệ sản phẩm theo loại
+    const ctx2 = document.getElementById('chartTyLe').getContext('2d');
+    const loaiSP = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.TenLoaiSP));
+    const soLuongSP = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.SoLuongTheoLoai));
+
+    // Bộ màu đẹp – không trùng – tối ưu cho Pie chart
+    const bgColors = [
+        "#E63946", "#457B9D", "#2A9D8F", "#F4A261", "#E9C46A",
+        "#8D99AE", "#EF476F", "#06D6A0", "#118AB2", "#073B4C",
+        "#F72585", "#7209B7", "#3A0CA3", "#4361EE", "#4CC9F0",
+        "#FF6F59", "#254441", "#43AA8B", "#B2B09B", "#9C2C77"
+    ];
+
+    // Nếu loại SP nhiều hơn số màu → tự xoay vòng
+    const colorsUsed = loaiSP.map((_, i) => bgColors[i % bgColors.length]);
+
+    new Chart(ctx2, {
+        type: 'pie',
+        data: {
+            labels: loaiSP,
+            datasets: [{
+                data: soLuongSP,
+                backgroundColor: colorsUsed
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'bottom' }
+            }
+        }
+    });
+
+        function exportBaoCaoPDF() {
+
+            // Gọi API tạo mã báo cáo + lưu vào DB
+            $.getJSON("/BaoCao/XuatBaoCao", function (res) {
+
+                var maBC = res.MaBC; // 👉 nhận mã báo cáo từ server
+
+                var img1 = document.getElementById("chartDoanhThu").toDataURL("image/png");
+                var img2 = document.getElementById("chartTyLe").toDataURL("image/png");
+
+                var form = document.createElement("form");
+                form.method = "POST";
+                form.action = "/BaoCao/ExportPDF";
+
+                function append(name, value) {
+                    var input = document.createElement("input");
+                    input.type = "hidden";
+                    input.name = name;
+                    input.value = value;
+                    form.appendChild(input);
+                }
+
+                append("img1", img1);
+                append("img2", img2);
+                append("doanhThu", thongKe.doanhThu);
+                append("congNo", thongKe.congNo);
+                append("tonKho", thongKe.tonKho);
+                append("soLuongNhap", thongKe.soLuongNhap);
+
+                append("maBC", maBC); // 👉 GỬI MÃ BÁO CÁO ĐÃ TẠO
+
+                document.body.appendChild(form);
+                form.submit();
+            });
+        }
+
+
+    </script>
+}

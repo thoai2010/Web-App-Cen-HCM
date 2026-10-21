@@ -1,0 +1,87 @@
+﻿@model IEnumerable<QLBH.Models.SanPham>
+
+@{
+    ViewBag.Title = "Quản lý Sản phẩm";
+
+    // Lấy vai trò từ Session
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    // Nếu là admin thì dùng AdminLayout
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+
+    }
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+    .cen-header { color:@cenGreen; font-weight:700; }
+    .card { border:none; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .btn-cen { background-color:@cenOrange; color:white; border:none; transition:.3s; }
+    .btn-cen:hover { background-color:#ff9b2f; }
+    .preview-img { width:80px; height:80px; object-fit:cover; border-radius:5px; }
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header"><i class="bi bi-box-seam"></i> Danh sách sản phẩm</h2>
+        <div class="d-flex gap-2">
+            @using (Html.BeginForm("Index", "qlsp", FormMethod.Get))
+            {
+                <input type="text" name="search" value="@Request["search"]"
+                       class="form-control search-box"
+                       placeholder="🔍 Tìm sản phẩm..." />
+            }
+            <a href="@Url.Action("Create","qlsp")" class="btn btn-cen px-4"><i class="bi bi-plus-circle"></i> Thêm sản phẩm</a>
+        </div>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {<div class="alert alert-success">@TempData["Success"]</div>}
+
+    <div class="card p-4">
+        <table class="table table-hover">
+            <thead class="table-light">
+                <tr>
+                    <th>Ảnh</th>
+                    <th>Mã SP</th>
+                    <th>Tên SP</th>
+                    <th>Loại</th>
+                    <th>Giá bán</th>
+                    <th>SL tồn</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sp in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@Url.Content("~/Content/images/sanpham/" + (string.IsNullOrEmpty(sp.Hinh) ? "no-image.png" : sp.Hinh))"
+                                 class="preview-img" onerror="this.src='/Content/images/no-image.png'" />
+                        </td>
+                        <td>@sp.MaSP</td>
+                        <td>@sp.TenSP</td>
+                        <td>@sp.TenLoai</td>
+                        <td>@String.Format("{0:N0}", sp.GiaBan)</td>
+                        <td>@sp.SLTon</td>
+                        <td>
+                            <a href="@Url.Action("Edit","qlsp",  new { id = sp.MaSP.Trim() })" class="btn btn-sm btn-primary me-2">
+                                <i class="bi bi-pencil-square"></i> Sửa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

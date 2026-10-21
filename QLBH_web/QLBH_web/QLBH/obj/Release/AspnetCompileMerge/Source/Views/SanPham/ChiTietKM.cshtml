@@ -1,0 +1,141 @@
+﻿@model QLBH.Models.KhuyenMai
+@{
+    ViewBag.Title = "Chi tiết khuyến mãi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var dsCT = ViewBag.ChiTiet as List<QLBH.Models.ChiTietKM_SP>;
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<style>
+    .km-banner {
+        background: linear-gradient(90deg, #005F59, #00897B);
+        color: white;
+        padding: 25px;
+        border-radius: 12px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+
+        .km-banner h2 {
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .km-banner .date {
+            margin-top: 6px;
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+    .km-content {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    .km-table th {
+        background: #005F59;
+        color: white;
+        text-align: center;
+    }
+
+    .km-table td {
+        vertical-align: middle;
+        text-align: center;
+        padding: 12px 8px;
+    }
+
+    .back-btn {
+        background: #005F59;
+        color: white !important;
+        padding: 8px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: .25s;
+    }
+
+        .back-btn:hover {
+            background: #00796B;
+        }
+
+    .discount-badge {
+        background: #F7941D;
+        color: white;
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-weight: 700;
+    }
+</style>
+
+
+<!-- ================= BANNER ================= -->
+<div class="km-banner">
+    <h2><i class="fa fa-gift"></i> @Model.TenCT</h2>
+
+    <div class="date">
+        <i class="fa fa-calendar"></i>
+        @Model.NgayBD.ToString("dd/MM/yyyy") → @Model.NgayKT.ToString("dd/MM/yyyy")
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.MoTa))
+    {
+        <p style="margin-top:10px;font-size:16px;">@Model.MoTa</p>
+    }
+</div>
+
+
+<!-- ================= NỘI DUNG KM ================= -->
+<div class="km-content">
+
+    <h4 style="color:@cenGreen;font-weight:700;">🎁 Sản phẩm áp dụng</h4>
+    <hr />
+
+    @if (dsCT == null || dsCT.Count == 0)
+    {
+        <p class="text-center text-muted">Không có sản phẩm nào trong chương trình này.</p>
+    }
+    else
+    {
+        <table class="table table-bordered km-table">
+            <thead>
+                <tr>
+                    <th>Mã SP</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng tối thiểu</th>
+                    <th>Mức khuyến mãi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in dsCT)
+                {
+                    <tr>
+                        <td>@item.MaSP</td>
+                        <td>@item.TenSP</td>
+                        <td>@item.SoLuongToiThieu</td>
+
+                        <td>
+                            @if (Model.LoaiKM == "PhanTram")
+                            {
+                                <span class="discount-badge">@item.TriGia %</span>
+                            }
+                            else
+                            {
+                                <span class="discount-badge">@String.Format("{0:N0} ₫", item.TriGia)</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <div class="mt-3">
+        <a href="@Url.Action("DanhMuc", "SanPham")" class="back-btn">
+            <i class="fa fa-arrow-left"></i> Quay lại danh mục
+        </a>
+    </div>
+</div>

@@ -1,0 +1,151 @@
+﻿@model List<QLBH.Models.CartItem>
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    decimal subtotal = Model.Sum(i => i.ThanhTienSauKM);
+    decimal shipping = 30000;
+    decimal total = subtotal + shipping;
+}
+
+<form id="checkoutForm" method="post" action="@Url.Action("PlaceOrder", "Checkout")">
+    <div class="container my-5">
+        <div class="row shadow-lg rounded-4 overflow-hidden bg-white">
+
+            <!-- LEFT: thông tin người nhận + giỏ hàng -->
+            <div class="col-lg-7 p-4 border-end">
+                <h4 class="text-uppercase fw-bold mb-4" style="color:#F7941D;">Thông tin người nhận</h4>
+                <div class="mb-3">
+                    <label class="fw-semibold">Họ tên</label>
+                    <input type="text" name="hoTen" class="form-control" placeholder="Nhập họ tên" required />
+                </div>
+                <div class="mb-3">
+                    <label class="fw-semibold">Địa chỉ giao hàng</label>
+                    <input type="text" name="diaChi" class="form-control" placeholder="Nhập địa chỉ" required />
+                </div>
+                <div class="mb-3">
+                    <label class="fw-semibold">Số điện thoại</label>
+                    <input type="text" name="sdt" class="form-control" placeholder="Nhập số điện thoại" required pattern="[0-9]{9,11}" />
+                </div>
+                <div class="mb-4">
+                    <label class="fw-semibold">Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="Nhập email" required />
+                </div>
+
+                <h4 class="text-uppercase fw-bold mb-3 mt-4" style="color:#F7941D;">Giỏ hàng của bạn</h4>
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Đơn vị</th>
+                            <th>Giá</th>
+                            <th>Khuyến mãi</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="@Url.Content(item.HinhAnh ?? "~/Content/images/no-image.png")" class="me-3 rounded" style="width:70px;height:70px;object-fit:cover;" />
+                                        <div>
+                                            <div class="fw-semibold">@item.TenSP</div>
+                                            <div class="text-muted small">@item.DonViTinh</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>@item.DonViTinh</td>
+                                <td>@String.Format("{0:N0}₫", item.GiaBan)</td>
+                                <td>@String.Format("-{0:N0}₫", item.KhuyenMai)</td>
+                                <td>@item.SoLuong</td>
+                                <td>@String.Format("{0:N0}₫", item.ThanhTienSauKM)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="mt-3 text-end">
+                    <div>Tạm tính: <strong>@String.Format("{0:N0}₫", subtotal)</strong></div>
+                    <div>Phí vận chuyển: <strong>@String.Format("{0:N0}₫", shipping)</strong></div>
+                    <div class="fs-5 fw-bold" style="color:#F7941D;">Tổng cộng: @String.Format("{0:N0}₫", total)</div>
+                </div>
+            </div>
+
+            <!-- RIGHT: phương thức thanh toán + nút submit -->
+            <div class="col-lg-5 p-4">
+                <h4 class="text-uppercase fw-bold mb-3" style="color:#F7941D;">Phương thức thanh toán</h4>
+                <div class="mb-3">
+                    <div class="border rounded-4 p-3 mb-3 bg-light d-flex align-items-center">
+                        <input type="radio" name="phuongThuc" value="Tiền mặt" id="tienmat" checked />
+                        <label for="tienmat" class="ms-3 fw-semibold mb-0">Thanh toán khi nhận hàng (COD)</label>
+                    </div>
+                    <div class="border rounded-4 p-3 mb-3 bg-light">
+                        <div class="d-flex align-items-start">
+                            <input type="radio" name="phuongThuc" value="Chuyển khoản" id="chuyenkhoan" />
+                            <label for="chuyenkhoan" class="ms-3 fw-semibold mb-0">Chuyển khoản ngân hàng (QR)</label>
+                        </div>
+                        <div id="bank-info" class="mt-3 text-center" style="display:none;">
+                            <h6 class="fw-bold mb-2" style="color:#F7941D;">Thông tin chuyển khoản</h6>
+                            <p class="mb-1"><strong>Ngân hàng:</strong> MB Bank</p>
+                            <p class="mb-1"><strong>Số TK:</strong> 0857672969</p>
+                            <p class="mb-1"><strong>Chủ TK:</strong> CEN TPHCM</p>
+                            <p class="mb-2"><strong>Nội dung:</strong> Thanh toán đơn hàng - Khách hàng</p>
+                            <img id="qrImage" class="border rounded" style="width:180px;height:180px;" />
+                            <p class="text-muted small mt-2">Quét mã bằng ứng dụng ngân hàng</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4 d-grid gap-2">
+                    <a href="@Url.Action("Index","GioHang")" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-arrow-left me-2"></i> Quay lại giỏ hàng
+                    </a>
+
+                    <button type="submit" class="btn btn-warning" style="background:#F7941D;color:white;border:none;">
+                        <i class="fa-solid fa-check-circle me-2"></i> Xác nhận thanh toán
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    var qrImage = document.getElementById("qrImage");
+    var bankInfo = document.getElementById("bank-info");
+
+    // Lấy tổng tiền từ Razor, ép kiểu float
+    var total = parseFloat('@total.ToString("F0")');
+
+    function buildQrUrl(amount){
+        return "https://img.vietqr.io/image/MB-0857672969-compact.png?amount=" + amount +
+               "&addInfo=" + encodeURIComponent("Thanh toán đơn hàng - Khách hàng") +
+               "&accountName=" + encodeURIComponent("CEN TPHCM");
+    }
+
+    var rChuyen = document.getElementById("chuyenkhoan");
+    var rCod = document.getElementById("tienmat");
+
+    function updateBankInfo() {
+        if(rChuyen && rChuyen.checked){
+            bankInfo.style.display = "block";
+            qrImage.src = buildQrUrl(total);
+        } else {
+            bankInfo.style.display = "none";
+        }
+    }
+
+    if(rChuyen) rChuyen.addEventListener("change", updateBankInfo);
+    if(rCod) rCod.addEventListener("change", updateBankInfo);
+
+    updateBankInfo();
+});
+    </script>
+}
+
+

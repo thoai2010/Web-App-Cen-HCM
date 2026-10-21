@@ -1,0 +1,54 @@
+﻿@model List<QLBH.Models.YeuThichItem>
+@{
+    ViewBag.Title = "Yêu thích";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4" style="color:@cenGreen;"><i class="fa-solid fa-heart"></i> Sản phẩm yêu thích</h2>
+
+    @if (TempData["Message"] != null)
+    {<div class="alert alert-success">@TempData["Message"]</div>}
+    @if (!Model.Any())
+    {
+        <div class="text-center p-5 card">
+            <div class="card-body">
+                <p class="fw-bold">Bạn chưa có sản phẩm yêu thích.</p>
+                <a href="@Url.Action("DanhMuc","SanPham")" class="btn btn-outline-primary">Xem sản phẩm</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row g-3">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@Url.Content(item.Hinh ?? "~/Content/images/no-image.png")" class="card-img-top" style="height:170px; object-fit:cover" />
+                        <div class="card-body text-center">
+                            <h6 class="card-title">@item.TenSP</h6>
+                            <p class="text-danger fw-bold">@String.Format("{0:N0} ₫", item.GiaBan)</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <a href="@Url.Action("ThemVaoGio","GioHang", new { id = item.MaSP })" class="btn btn-sm btn-warning">
+                                    <i class="fa fa-cart-plus"></i> Thêm giỏ
+                                </a>
+                                <a href="@Url.Action("Xoa","YeuThich", new { id = item.MaSP })" class="btn btn-sm btn-outline-danger">
+                                    <i class="fa fa-trash"></i> Xóa
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="mt-3 text-end">
+            <a href="@Url.Action("XoaTatCa","YeuThich")" class="btn btn-outline-danger">Xóa tất cả</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,6 @@
+@sanphamapi_HostAddress = http://localhost:5209
+
+GET {{sanphamapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

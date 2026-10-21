@@ -1,0 +1,112 @@
+﻿@model IEnumerable<QLBH.Models.BaoCaoViewModel>
+
+@{
+    ViewBag.Title = "Lịch sử báo cáo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+
+    .cen-header { color:@cenGreen; font-weight:700; }
+
+    .cen-table thead { background-color:@cenGreen; color:white; }
+    .cen-table tbody tr:hover { background-color:#e9f6f5; transition:.25s; }
+
+    .btn-outline-warning {
+        border:2px solid @cenOrange !important;
+        color:@cenOrange !important;
+        font-weight:600;
+        border-radius:6px;
+        transition:.3s;
+    }
+    .btn-outline-warning:hover {
+        background:@cenOrange !important;
+        color:white !important;
+    }
+
+    .search-box {
+        border:2px solid @cenGreen; width:260px;
+        padding:6px 12px; border-radius:6px;
+    }
+    .search-box:focus { border-color:@cenOrange; }
+</style>
+
+
+<div class="container py-4">
+
+    <!-- Header & Buttons -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header">
+            <i class="bi bi-file-earmark-text"></i> Lịch sử báo cáo
+        </h2>
+
+        <div class="d-flex gap-2">
+            <input type="text" id="searchInput"
+                   class="form-control search-box"
+                   placeholder="🔍 Tìm mã báo cáo..." />
+        </div>
+    </div>
+
+
+    <!-- Table -->
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+
+            <table id="reportTable" class="table table-hover align-middle mb-0 cen-table text-center">
+                <thead>
+                    <tr>
+                        <th style="width:180px;">Mã báo cáo</th>
+                        <th style="width:220px;">Ngày lập</th>
+                        <th style="width:150px;">Hành động</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var bc in Model)
+                    {
+                        <tr>
+                            <td>@bc.MaBC</td>
+                            <td>@bc.NgayLap.ToString("dd/MM/yyyy")</td>
+
+                            <td>
+                                <form action="@Url.Action("Delete", "BaoCao")"
+                                      method="post"
+                                      onsubmit="return confirm('Bạn có chắc muốn xóa báo cáo @bc.MaBC không?');">
+
+                                    <input type="hidden" name="maBC" value="@bc.MaBC" />
+
+                                    <button type="submit"
+                                            class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-trash"></i> Xóa
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Search Script -->
+<script>
+    document.getElementById("searchInput")
+        .addEventListener("keyup", function () {
+
+            var keyword = this.value.toLowerCase();
+            var rows = document.querySelectorAll("#reportTable tbody tr");
+
+            rows.forEach(function (row) {
+                var text = row.cells[0].textContent.toLowerCase();
+                row.style.display = text.indexOf(keyword) > -1 ? "" : "none";
+            });
+        });
+</script>

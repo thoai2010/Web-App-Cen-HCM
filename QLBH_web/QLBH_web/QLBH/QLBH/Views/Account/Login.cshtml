@@ -1,0 +1,67 @@
+﻿@model QLBH.Models.LoginViewModel
+@{
+    ViewBag.Title = "Đăng nhập";
+}
+<!-- Link Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-pb/VdxP0<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-pb/VdxP0iVfNw4W7D2mZcJf6XwEEXgNf1U3i0mXyC+0jXxZP2rkP2iIx2swb7QGzyjLkMabY9eE+QAfWZs6+jQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="~/Content/style.css" />
+
+<div class="login-container">
+    <div class="logo">
+        <img src="~/Content/Images/logo-cenhcm-white.png" alt="Logo" />
+    </div>
+
+    <h2>Đăng nhập</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert">@TempData["Message"]</div>
+    }
+
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div style="color:red">@Html.ValidationSummary(true, "", new { @class = "text-danger summary-error" })</div>
+
+        <div class="input-group">
+            <label for="TenDangNhap">Tên đăng nhập</label>
+            @Html.TextBoxFor(m => m.TenDangNhap, new { @class = "form-control", placeholder = "Tên đăng nhập" })
+            <div style="color:red">@Html.ValidationMessageFor(m => m.TenDangNhap)</div>
+        </div>
+
+        <div class="input-group password-wrapper">
+            <label for="MatKhau">Mật khẩu</label>
+            <div class="password-container" style="position: relative;">
+                @Html.PasswordFor(m => m.MatKhau, new { @class = "form-control", placeholder = "Mật khẩu", id = "passwordInput" })
+
+                <span id="togglePassword"
+                      style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                    <i id="eyeIcon" class="fa-solid fa-eye-slash"></i>
+                </span>
+            </div>
+
+            <div style="color:red">@Html.ValidationMessageFor(m => m.MatKhau)</div>
+        </div>
+
+        <button type="submit">Đăng nhập</button>
+    }
+
+    <p class="note">@Html.ActionLink("Chưa có tài khoản? Đăng ký ngay", "Register")</p>
+</div>
+
+<!-- Script hiện / ẩn mật khẩu -->
+<script>
+    const togglePassword = document.getElementById("togglePassword");
+    const passwordInput = document.getElementById("passwordInput");
+    const eyeIcon = document.getElementById("eyeIcon");
+    togglePassword.addEventListener("click", () => {
+        const isHidden = passwordInput.type === "password";
+        passwordInput.type = isHidden ? "text" : "password";
+        eyeIcon.classList.toggle("fa-eye");
+        eyeIcon.classList.toggle("fa-eye-slash");
+    });
+</script>

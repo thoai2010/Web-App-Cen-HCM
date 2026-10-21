@@ -1,0 +1,112 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #0f4b47;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.login-container {
+    background: #fff;
+    padding: 40px 45px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0f4b47;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+    .input-group label {
+        display: block;
+        margin-bottom: 6px;
+        color: #333;
+        font-weight: 600;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #cdd6f4;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border 0.3s;
+    }
+
+        .input-group input:focus {
+            border-color: #0b3d91;
+            outline: none;
+        }
+
+/* Phần ô mật khẩu có icon 👁 */
+.password-wrapper {
+    position: relative;
+}
+
+    .password-wrapper input {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+.eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #0f4b47;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    button[type="submit"]:hover {
+        background: #106b67;
+    }
+
+.note, .register {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+    .note a, .register a {
+        color: #0b3d91;
+        text-decoration: none;
+    }
+
+        .note a:hover, .register a:hover {
+            text-decoration: underline;
+        }

@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "Tạo phiếu nhập hàng";
+
+    // Lấy vai trò từ Session
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    // Nếu là admin thì dùng AdminLayout
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+
+    }
+}
+
+<h2 class="text-center mt-3">TẠO PHIẾU NHẬP HÀNG</h2>
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<hr />
+
+<form method="post" action="@Url.Action("Create", "QLNhapHang")">
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label>Mã phiếu nhập</label>
+            <input type="text" name="MaPNH" class="form-control" value="@ViewBag.NewMaPNH" readonly />
+        </div>
+        <div class="col-md-4">
+            <label>Nhân viên</label>
+            <input type="hidden" name="MaNV" value="@ViewBag.MaNV" />
+            <input type="text" class="form-control" value="@ViewBag.TenNV" readonly />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label>Nhà cung cấp</label>
+            <input type="hidden" id="MaNCC" name="MaNCC" />
+            <input type="text" id="TenNCC" class="form-control" placeholder="Nhập tên NCC..." />
+        </div>
+    </div>
+
+    <hr />
+    <h5>Chi tiết sản phẩm</h5>
+    <table class="table table-bordered" id="tblCTPNH">
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="hidden" class="ma-sp" name="MaSP[]" />
+                    <input type="text" class="form-control ten-sp" placeholder="Nhập tên sản phẩm..." />
+                </td>
+                <td><input type="number" class="form-control" name="SoLuong[]" value="1" min="1" /></td>
+                <td><input type="number" class="form-control" name="DonGia[]" value="0" min="0" /></td>
+                <td><button type="button" class="btn btn-danger btn-remove">Xóa</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="button" id="btnAddRow" class="btn btn-secondary">+ Thêm sản phẩm</button>
+    <hr />
+    <div class="text-right">
+        <button type="submit" class="btn btn-primary">Lưu phiếu nhập</button>
+    </div>
+</form>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+
+    <script>
+        // Gợi ý NCC
+        $("#TenNCC").autocomplete({
+            source: function (request, response) {
+                $.getJSON('@Url.Action("GetNCC","QLNhapHang")', { term: request.term }, response);
+            },
+            select: function (event, ui) {
+                $("#TenNCC").val(ui.item.label);
+                $("#MaNCC").val(ui.item.value);
+                return false;
+            },
+            minLength: 1
+        });
+
+        // Gợi ý sản phẩm
+        $(document).on("focus", ".ten-sp", function () {
+            let input = $(this);
+            input.autocomplete({
+                source: function (request, response) {
+                    $.getJSON('@Url.Action("GetSanPham","QLNhapHang")', { term: request.term }, response);
+                },
+                select: function (event, ui) {
+                    input.val(ui.item.label);
+                    input.closest("tr").find(".ma-sp").val(ui.item.value);
+                    return false;
+                },
+                minLength: 1
+            });
+        });
+
+        // Thêm dòng chi tiết
+        $("#btnAddRow").click(function () {
+            let row = `<tr>
+                <td>
+                    <input type="hidden" class="ma-sp" name="MaSP[]" />
+                    <input type="text" class="form-control ten-sp" placeholder="Nhập tên sản phẩm..." />
+                </td>
+                <td><input type="number" class="form-control" name="SoLuong[]" value="1" min="1" /></td>
+                <td><input type="number" class="form-control" name="DonGia[]" value="0" min="0" /></td>
+                <td><button type="button" class="btn btn-danger btn-remove">Xóa</button></td>
+            </tr>`;
+            $("#tblCTPNH tbody").append(row);
+        });
+
+        // Xóa dòng
+        $(document).on("click", ".btn-remove", function () {
+            $(this).closest("tr").remove();
+        });
+    </script>
+}

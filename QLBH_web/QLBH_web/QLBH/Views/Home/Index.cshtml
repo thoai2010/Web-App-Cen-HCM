@@ -1,0 +1,199 @@
+﻿@{
+    ViewBag.Title = "Trang chủ - CEN HCM";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var banners = ViewBag.BannerImages as List<string> ?? new List<string>();
+    var danhMuc = ViewBag.DanhMucLoai as List<dynamic> ?? new List<dynamic>();
+    var sanPhamNoiBat = ViewBag.SanPhamNoiBat as List<dynamic> ?? new List<dynamic>();
+    dynamic company = ViewBag.Company;
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+
+    var categoryIcons = new Dictionary<string, string>
+{
+        { "LSP001", "fa-flask" },
+        { "LSP002", "fa-vial" },
+        { "LSP003", "fa-prescription-bottle" },
+        { "LSP004", "fa-atom" },
+        { "LSP005", "fa-flask" },
+        { "LSP006", "fa-broom" },
+        { "LSP007", "fa-industry" },
+        { "LSP008", "fa-droplet" },
+        { "LSP009", "fa-vial-circle-check" },
+        { "LSP010", "fa-vials" },
+        { "LSP011", "fa-cubes" },
+        { "LSP012", "fa-seedling" },
+        { "LSP013", "fa-gem" }
+    };
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+
+    /* ===== Banner ===== */
+    .carousel-caption {
+        background: rgba(0,0,0,0.5);
+        border-radius: 8px;
+        padding: 20px;
+    }
+    .carousel-caption h1 {
+        font-weight: 700;
+        color: @cenOrange;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    }
+    .carousel-caption p { color: #fff; font-size: 18px; }
+
+    /* ===== About ===== */
+    .about-section { background: white; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .about-title { color: @cenGreen; font-weight: 700; }
+    .btn-view-more { background: @cenOrange; color: white; font-weight: 600; border-radius: 6px; transition: .3s; }
+    .btn-view-more:hover { background: #e67e12; color: #fff; }
+
+    /* ===== Category ===== */
+    .category-wrapper { position: relative; }
+    .category-scroll { overflow-x: auto; scroll-behavior: smooth; padding: 10px 0; gap: 25px; display:flex; }
+    .category-scroll::-webkit-scrollbar { display: none; }
+    .cat-item { flex: 0 0 auto; width: 95px; text-align:center; text-decoration:none; color:#005F59; font-weight:600; }
+    .cat-item i { font-size: 40px; margin-bottom:5px; color:#005F59; transition: .3s; }
+    .cat-item:hover i { color:@cenOrange; transform: scale(1.2); }
+    .cat-name { font-size: 13px; word-wrap: break-word; line-height:1.25; }
+    .cat-nav { position:absolute; top:40%; transform:translateY(-50%); background:white; border:2px solid #005F59; color:#005F59; width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; z-index:5; transition:.2s; }
+    .cat-nav:hover { background:@cenOrange; border-color:@cenOrange; color:white; }
+    .prev-btn { left:-15px; } .next-btn { right:-15px; }
+
+    /* ===== Product Card ===== */
+    .product-card { border-radius:10px; transition:.3s; }
+    .product-card:hover { transform:translateY(-4px); box-shadow:0 4px 12px rgba(0,0,0,0.1); }
+    .product-card h6 { font-weight:600; color:white; }
+    .price { font-weight:bold; color:#F7941D; }
+
+    /* ===== Footer ===== */
+    .contact-section { background-color:@cenGreen; color:white; }
+    .footer-logo { width:160px; }
+    .footer-address li { margin-bottom:5px; font-size:15px; }
+    .social-icons a { display:inline-block; margin-right:10px; color:white; font-size:20px; transition:.3s; }
+    .social-icons a:hover { color:@cenOrange; transform:translateY(-2px); }
+    .btn-outline-light { border:2px solid @cenOrange !important; color:@cenOrange !important; font-weight:600; transition:.3s; }
+    .btn-outline-light:hover { background:@cenOrange !important; color:white !important; }
+</style>
+
+<!-- ===== Banner ===== -->
+<div id="homeCarousel" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+        @for (int i = 0; i < banners.Count; i++)
+        {
+            var active = i == 0 ? "active" : "";
+            <div class="carousel-item @active">
+                <img src="@banners[i]" class="d-block w-100" style="height:480px; object-fit:cover;" alt="Banner @(i+1)">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-5">CEN HCM</h1>
+                    <p>Realizing your dreams</p>
+                </div>
+            </div>
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- ===== About Section ===== -->
+<section class="about-section py-5 my-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <img src="~/Content/images/gioithieu.jpg" class="img-fluid rounded shadow-lg" alt="Giới thiệu CEN HCM" />
+            </div>
+            <div class="col-md-6 text-center">
+                <h2 class="about-title mb-3">VỀ CEN HCM</h2>
+                <p>
+                    CEN HCM là là đơn vị tiên phong trong lĩnh vực nhập khẩu và phân phối hóa chất công nghiệp tại khu vực phía Nam. Với đội ngũ chuyên gia giàu kinh nghiệm và tận tâm, chúng tôi mang đến giải pháp cung ứng hóa chất toàn diện, đảm bảo chất lượng và an toàn cho khách hàng cùng đối tác.
+                </p>
+                <a href="@Url.Action("Contact","Home")" class="btn btn-view-more">LIÊN HỆ NGAY</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Category Slider ===== -->
+<section class="container py-4">
+    <h3 class="text-center mb-4 text-uppercase" style="color:@cenGreen;">Danh mục loại</h3>
+    <div class="category-wrapper">
+        <button class="cat-nav prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="category-scroll">
+            @foreach (var loai in danhMuc)
+            {
+                string iconClass = categoryIcons.ContainsKey(loai.MaLoai) ? categoryIcons[loai.MaLoai] : "fa-circle";
+                <a href="@Url.Action("DanhMuc","SanPham", new { maLoai = loai.MaLoai })" class="cat-item">
+                    <i class="fa-solid @iconClass"></i>
+                    <div class="cat-name">@loai.TenLoai</div>
+                </a>
+            }
+        </div>
+        <button class="cat-nav next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+</section>
+
+<!-- ===== Featured Products ===== -->
+<section class="container my-5">
+    <h3 class="text-center mb-4 text-uppercase" style="color:@cenGreen;">Sản phẩm gợi ý</h3>
+    <div class="row">
+        @foreach (var sp in sanPhamNoiBat)
+        {
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card product-card border-0 shadow-sm h-100 text-center">
+                    <img src="@sp.Hinh" class="card-img-top" style="height:180px; object-fit:cover;" alt="@sp.TenSP" />
+                    <div class="card-body">
+                        <h6>@sp.TenSP</h6>
+                        <p class="price">@String.Format("{0:N0}", sp.GiaBan) ₫</p>
+                        <a href="@Url.Action("ChiTiet", "SanPham", new { id = sp.MaSP })" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- ===== Footer / Contact ===== -->
+<section class="contact-section py-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mb-4">
+                <img src="~/Content/images/logo-cenhcm-white.jpg" class="footer-logo" />
+                <p class="mt-3 mb-1">Hotline: @company.Hotline</p>
+                <p class="mb-1">Email: @company.Email</p>
+                <p>Địa chỉ: @company.DiaChi</p>
+            </div>
+            <div class="col-md-7">
+                <h4 class="text-center">LIÊN HỆ VỚI CHÚNG TÔI</h4>
+                <form method="post" action="@Url.Action("GuiLienHe","Home")" class="mt-3">
+                    <div class="form-group mb-3"><input class="form-control" name="Ten" placeholder="Tên của bạn" /></div>
+                    <div class="form-group mb-3"><input class="form-control" name="Email" placeholder="Email của bạn" /></div>
+                    <div class="form-group mb-3"><input class="form-control" name="SDT" placeholder="Số điện thoại" /></div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-light px-4">ĐĂNG KÝ NGAY</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-4 pt-3 border-top border-light">
+            <small>© 2025 <strong>CEN HCM</strong> - KLCN_TH150</small>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const scrollBox = document.querySelector(".category-scroll");
+            if (!scrollBox) return;
+            document.querySelector(".next-btn").onclick = () => scrollBox.scrollLeft += 200;
+            document.querySelector(".prev-btn").onclick = () => scrollBox.scrollLeft -= 200;
+        });
+    </script>
+}

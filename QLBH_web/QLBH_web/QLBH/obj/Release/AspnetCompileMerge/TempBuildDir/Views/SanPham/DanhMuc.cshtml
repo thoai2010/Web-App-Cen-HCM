@@ -1,0 +1,295 @@
+﻿@model IEnumerable<QLBH.Models.SanPham>
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var loais = ViewBag.DanhMucLoai as List<QLBH.Models.LoaiSanPham>;
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    body { background:#F5F6F8; }
+
+    .sidebar {
+        background: white;
+        border-radius: 10px;
+        padding: 0;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .sidebar-header { background:@cenGreen;color:white;padding:14px 18px;font-size:16px;font-weight:700; }
+    .category-item { padding:12px 18px;border-bottom:1px solid #f1f1f1; }
+    .category-item a { text-decoration:none;color:#004B48;font-weight:500; }
+    .km-slider-container {
+        background: white;
+        border-radius: 12px;
+        padding: 18px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+        margin-bottom: 25px;
+        border-left: 6px solid #005F59;
+    }
+
+    .km-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #005F59;
+        margin-bottom: 12px;
+    }
+
+    .km-slide {
+        display: flex;
+        overflow-x: auto;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+
+    .km-card {
+        min-width: 260px;
+        background: #f9fdfd;
+        border: 1px solid #e3e3e3;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+        transition: .25s;
+        cursor: pointer;
+    }
+
+        .km-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+        }
+
+    .km-date {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .km-type {
+        color: #F7941D;
+        font-weight: 700;
+        margin-top: 3px;
+    }
+    .product-card {
+        background:white;border-radius:10px;padding:10px;height:100%;
+        text-align:center;border:1px solid #eee;transition:0.25s;
+    }
+    .product-card:hover { transform:translateY(-4px);box-shadow:0 3px 8px rgba(0,0,0,0.1); }
+    .product-image img { height:160px;object-fit:contain; }
+    .product-name { font-weight:700;margin-top:10px;color:@cenGreen; }
+    .product-price { color:@cenOrange;font-weight:700;margin-top:4px; }
+
+    #suggestList {
+        position:absolute;top:105%;left:0;width:100%;background:#fff;border-radius:6px;
+        border:1px solid #ddd;box-shadow:0 4px 12px rgba(0,0,0,0.12);
+        z-index:9999;display:none;max-height:350px;overflow-y:auto;padding:0;
+    }
+    .suggest-item {
+        list-style:none;display:flex;padding:10px;gap:10px;cursor:pointer;
+        border-bottom:1px solid #eee;transition:.15s;
+    }
+    .suggest-item:hover { background:#f6f6f6; }
+    .suggest-img { width:55px;height:55px;object-fit:contain;border:1px solid #eee;border-radius:4px; }
+    .suggest-name { font-weight:600;color:#333; }
+    .suggest-price { color:@cenOrange;font-weight:600; }
+</style>
+
+<!-- SEARCH -->
+<form action="@Url.Action("TimKiem", "SanPham")" method="get" class="d-flex mb-4 p-3" style="max-width:100%; position:relative;">
+
+    <input type="text" id="txtSearch" name="keyword" class="form-control me-2"
+           placeholder="Nhập tên sản phẩm..." autocomplete="off" />
+
+    <button class="btn btn-success px-4" style="background:@cenGreen;border-color:@cenGreen;">
+        <i class="fa fa-search"></i>
+    </button>
+
+    <ul id="suggestList"></ul>
+</form>
+
+<div class="km-slider-container">
+    <div class="km-title">🎉 Chương trình khuyến mãi đang diễn ra</div>
+
+    @{
+        var khuyenMais = ViewBag.KhuyenMai as List<QLBH.Models.KhuyenMai>;
+    }
+
+    @if (khuyenMais != null && khuyenMais.Count > 0)
+    {
+        <div class="km-slide">
+            @foreach (var km in khuyenMais)
+            {
+                <a href="@Url.Action("ChiTietKM","SanPham", new { id = km.MaKM.Trim() })"
+                   style="text-decoration:none;">
+                    <div class="km-card">
+                        <h5 style="font-weight:700;color:#005F59;">@km.TenCT</h5>
+                        <div class="km-date">
+                            @km.NgayBD.ToString("dd/MM/yyyy") → @km.NgayKT.ToString("dd/MM/yyyy")
+                        </div>
+                        <div class="km-type">Loại: @km.LoaiKM</div>
+                    </div>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-muted">Hiện chưa có chương trình khuyến mãi.</p>
+    }
+
+</div>
+
+<div class="container-fluid mt-3">
+    <div class="row">
+
+        <!-- SIDEBAR -->
+        <div class="col-md-3 mb-3">
+            <div class="sidebar">
+                <div class="sidebar-header">Danh mục sản phẩm</div>
+
+                <div class="category-item">
+                    <a href="@Url.Action("DanhMuc","SanPham")" style="color:@cenOrange;font-weight:700;">Tất cả</a>
+                </div>
+
+                @if (loais != null)
+                {
+                    foreach (var l in loais)
+                    {
+                        <div class="category-item">
+                            <a href="@Url.Action("DanhMuc","SanPham", new { maLoai = l.MaLoai })">@l.TenLoai</a>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- LIST SP -->
+        <div class="col-md-9">
+            <div class="row g-3">
+                @foreach (var p in Model)
+                {
+                    string hinh = p.Hinh ?? "";
+                    string correctedPath = hinh.StartsWith("/Content")
+                        ? hinh.Replace("/Content", "")
+                        : hinh;
+
+                    <div class="col-md-3">
+                        <a href="@Url.Action("ChiTiet", "SanPham", new { id = p.MaSP })" style="text-decoration:none;">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Content/@correctedPath"
+                                         alt="@p.TenSP"
+                                         onerror="this.src='/Content/images/no-image.png'" />
+                                </div>
+                                <div class="product-name">@p.TenSP</div>
+                                <div class="product-price">@String.Format("{0:N0} ₫", p.GiaBan)</div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+        <!-- PAGINATION -->
+        @{
+            int currentPage = ViewBag.CurrentPage ?? 1;
+            int totalPages = ViewBag.TotalPages ?? 1;
+            string curLoai = ViewBag.CurrentLoai ?? "";
+        }
+
+        @if (totalPages > 1)
+        {
+            <nav class="mt-4">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("DanhMuc","SanPham", new { maLoai = curLoai, page = currentPage - 1 })">←</a>
+                    </li>
+
+                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        <li class="page-item @(i == currentPage ? "active" : "")">
+                            <a class="page-link" href="@Url.Action("DanhMuc","SanPham", new { maLoai = curLoai, page = i })">@i</a>
+                        </li>
+                    }
+
+                    <li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("DanhMuc","SanPham", new { maLoai = curLoai, page = currentPage + 1 })">→</a>
+                    </li>
+                </ul>
+            </nav>
+        }
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<script>
+$(document).ready(function () {
+
+    const box = $("#suggestList");
+
+    $("#txtSearch").on("input", function () {
+
+        let text = $(this).val().trim();
+        if (text.length < 2) {
+            box.hide();
+            return;
+        }
+
+        $.ajax({
+            url: "@Url.Action("GoiySanPham","SanPham")",
+            type: "GET",
+            dataType: "json",
+            data: { term: text },
+            success: function (data) {
+
+                box.empty();
+
+                // 🔥 FIX CỨNG: ép data thành Array
+                if (!Array.isArray(data) || data.length === 0) {
+                    box.hide();
+                    return;
+                }
+
+                $.each(data, function (i, item) {
+                    box.append(`
+                        <li class="suggest-item" data-id="${item.MaSP}">
+                            <img src="${item.Hinh}" class="suggest-img" />
+                            <div>
+                                <div class="suggest-name">${item.TenSP}</div>
+                                <div class="suggest-price">
+                                    ${Number(item.GiaBan).toLocaleString()} ₫
+                                </div>
+                            </div>
+                        </li>
+                    `);
+                });
+
+                box.show();
+            },
+            error: function () {
+                box.hide();
+            }
+        });
+    });
+
+    // CLICK gợi ý
+    $(document).on("click", ".suggest-item", function () {
+        let id = $(this).data("id");
+        window.location.href = "/SanPham/ChiTiet/" + id;
+    });
+
+    // CLICK ngoài → ẩn
+    $(document).on("click", function (e) {
+        if (!$(e.target).closest("#txtSearch, #suggestList").length) {
+            box.hide();
+        }
+    });
+});
+</script>
+
+
+

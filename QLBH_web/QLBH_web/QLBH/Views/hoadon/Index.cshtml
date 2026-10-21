@@ -1,0 +1,106 @@
+﻿    @model IEnumerable<QLBH.Models.HoaDon>
+
+@{
+    ViewBag.Title = "Quản lý Hóa đơn";
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    // Nếu là admin thì dùng AdminLayout
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+
+    }
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBgLight = "#F5F6F8";
+}
+
+<style>
+    body { background-color:@cenBgLight; }
+
+    .cen-header { color:@cenGreen; font-weight:700; }
+
+    .cen-table thead { background-color:@cenGreen; color:white; }
+    .cen-table tbody tr:hover { background-color:#e9f6f5; transition:.25s; }
+
+    .btn-edit {
+        border:none; color:white; font-weight:600; padding:6px 12px;
+        background-color:@cenOrange; border-radius:6px;
+    }
+    .btn-edit:hover { background-color:#ff9b2f; }
+
+    .btn-outline-warning {
+        border:2px solid @cenOrange !important; color:@cenOrange !important;
+        font-weight:600; border-radius:6px; padding:5px 12px; transition:.3s;
+    }
+    .btn-outline-warning:hover {
+        background:@cenOrange !important; color:white !important;
+    }
+
+    .search-box {
+        border:2px solid @cenGreen; width:260px;
+        padding:6px 12px; border-radius:6px;
+    }
+    .search-box:focus { border-color:@cenOrange; }
+</style>
+
+<div class="container py-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="cen-header"><i class="bi bi-receipt"></i> Quản lý Hóa đơn</h2>
+
+        <div class="d-flex gap-2">
+            @using (Html.BeginForm("Index", "HoaDon", FormMethod.Get))
+            {
+                <input type="text" name="search" value="@Request["search"]"
+                       class="form-control search-box"
+                       placeholder="🔍 Tìm hóa đơn, khách hàng, nhân viên..." />
+            }
+        </div>
+    </div>
+
+    <div class="card border-0 shadow-sm">
+        <div class="card-body p-0">
+
+            <table class="table table-hover align-middle mb-0 cen-table text-center">
+                <thead>
+                    <tr>
+                        <th>Mã HD</th>
+                        <th>Ngày lập</th>
+                        <th>Số tiền</th>
+                        <th>Thanh toán</th>
+                        <th>Khách hàng</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var hd in Model)
+                    {
+                        <tr>
+                            <td>@hd.MaHD</td>
+                            <td>@(hd.NgayLap?.ToString("dd/MM/yyyy"))</td>
+                            <td>@hd.SoTien.ToString("N0") ₫</td>
+                            <td>@hd.PhuongThucThanhToan</td>
+                            <td>@hd.TenKH</td>
+
+                            <td>
+                                <a href="@Url.Action("Details", "HoaDon", new { id = hd.MaHD.Trim() })"
+                                   class="btn-outline-warning btn-sm">
+                                    <i class="bi bi-eye-fill"></i> Xem chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,62 @@
+﻿@model QLBH.Models.KhachHangViewModel
+@{
+    ViewBag.Title = "Cập nhật thông tin khách hàng";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="~/Content/style.css" />
+
+<div class="login-container">
+    <div class="logo">
+        <img src="~/Content/images/logo-cenhcm-white.png" alt="Logo" />
+    </div>
+
+    <h2>Điền thông tin</h2>
+    <div style="color:red">@Html.ValidationSummary(true, "", new { @class = "text-danger summary-error" })</div>
+
+    @using (Html.BeginForm("NhapThongTin", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.TenDangNhap)
+
+        <div class="input-group text-center">
+            <label for="AnhDaiDien">Ảnh đại diện</label><br />
+            <img id="preview" src="~/Content/images/no-image.png" width="100" height="100" class="rounded-circle mb-2" />
+            <input type="file" name="AnhFile" accept="image/*" class="form-control" onchange="previewImage(event)" />
+        </div>
+
+        <div class="input-group">
+            <label for="TenKH">Họ và tên</label>
+            @Html.TextBoxFor(m => m.TenKH, new { @class = "form-control", placeholder = "Nhập họ và tên" })
+        </div>
+
+        <div class="input-group">
+            <label for="DiaChi">Địa chỉ</label>
+            @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control", placeholder = "Nhập địa chỉ" })
+        </div>
+
+        <div class="input-group">
+            <label for="Email">Email</label>
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "Nhập email" })
+        </div>
+
+        <div class="input-group">
+            <label for="SDT">Số điện thoại</label>
+            @Html.TextBoxFor(m => m.SDT, new { @class = "form-control", placeholder = "Nhập số điện thoại" })
+        </div>
+
+        <button type="submit" class="btn btn-success">Lưu thông tin</button>
+    }
+</div>
+
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var output = document.getElementById('preview');
+            output.src = reader.result;
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>

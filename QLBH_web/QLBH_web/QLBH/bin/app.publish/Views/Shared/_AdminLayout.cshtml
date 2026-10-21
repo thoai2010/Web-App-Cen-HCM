@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - CEN HCM Admin</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+    <style>
+        :root {
+            --cen-green: #005f59;
+            --cen-orange: #f7941d;
+            --cen-bg: #f5f6f8;
+        }
+
+        body {
+            background-color: var(--cen-bg);
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        /* ===== NAVBAR ===== */
+        .admin-navbar {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            z-index: 1050;
+        }
+
+            .admin-navbar .navbar-brand span {
+                color: var(--cen-green);
+                font-weight: 700;
+            }
+
+            .admin-navbar .nav-link.logout {
+                background-color: var(--cen-green);
+                color: white !important;
+                border-radius: 6px;
+                padding: 6px 12px;
+                font-weight: 600;
+                transition: 0.3s;
+            }
+
+                .admin-navbar .nav-link.logout:hover {
+                    background-color: #00796b;
+                }
+
+        /* ===== SIDEBAR ===== */
+        #sidebar {
+            position: fixed;
+            top: 56px; /* bằng navbar */
+            left: 0;
+            width: 240px;
+            height: calc(100vh - 56px);
+            background: linear-gradient(180deg, #005f59 0%, #00897b 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: width 0.3s ease;
+            z-index: 1040;
+        }
+
+            #sidebar.collapsed {
+                width: 70px;
+            }
+
+            #sidebar h6 {
+                text-align: center;
+                font-weight: 700;
+                margin: 15px 0;
+            }
+
+            #sidebar .nav-link {
+                color: white;
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                font-weight: 500;
+                transition: background 0.2s;
+                white-space: nowrap;
+            }
+
+                #sidebar .nav-link i {
+                    width: 25px;
+                    text-align: center;
+                    margin-right: 10px;
+                    font-size: 18px;
+                }
+
+                #sidebar .nav-link:hover,
+                #sidebar .nav-link.active {
+                    background-color: var(--cen-orange);
+                    color: white;
+                }
+
+            #sidebar.collapsed .nav-link span {
+                display: none;
+            }
+
+            #sidebar.collapsed .nav-link {
+                justify-content: center;
+            }
+
+        /* ===== TOGGLE BUTTON ===== */
+        #toggleSidebar {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 0;
+            transition: 0.3s;
+        }
+
+            #toggleSidebar:hover {
+                color: var(--cen-orange);
+            }
+
+        /* ===== MAIN CONTENT ===== */
+        #main-content {
+            margin-left: 240px;
+            padding: 20px;
+            transition: margin-left 0.3s ease;
+        }
+
+        #sidebar.collapsed + #main-content {
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg admin-navbar fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center" href="@Url.Action("Index", "Admin")">
+                <img src="~/Content/images/logo-cenhcm-white.jpg" alt="CEN HCM" height="40" class="me-2" />
+                <span>Quản Trị CEN HCM</span>
+            </a>
+            <div class="ms-auto">
+                <a href="@Url.Action("Login", "Account")" class="nav-link logout">
+                    <i class="fa fa-sign-out-alt"></i> Đăng xuất
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== SIDEBAR ===== -->
+    <div id="sidebar">
+        <div>
+            <h6>CHỨC NĂNG</h6>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a href="@Url.Action("Index", "Admin")" class="nav-link"><i class="fa fa-home"></i><span>Trang chủ</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLTaiKhoan")" class="nav-link"><i class="fa fa-user-shield"></i><span>Tài khoản</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLDanhMuc")" class="nav-link"><i class="fa fa-tags"></i><span>Loại sản phẩm</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "qlsp")" class="nav-link"><i class="fa fa-box"></i><span>Sản phẩm</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLNhaCungCap")" class="nav-link"><i class="fa fa-truck"></i><span>Nhà cung cấp</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLNhanVien")" class="nav-link"><i class="fa fa-user-tie"></i><span>Nhân viên</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLKhuyenMai")" class="nav-link"><i class="fa fa-gift"></i><span>Khuyến mãi</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "ChiTietKM_SP")" class="nav-link"><i class="fa fa-gift"></i><span>Sản phẩm - Khuyến mãi</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLKhachHang")" class="nav-link"><i class="fa fa-users"></i><span>Khách hàng</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "HoaDon")" class="nav-link"><i class="fa fa-file-invoice"></i><span>Hóa đơn</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLDonHang")" class="nav-link"><i class="fa fa-shopping-cart"></i><span>Đơn hàng</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "QLNhapHang")" class="nav-link"><i class="fa fa-shopping-cart"></i><span>Nhập hàng</span></a></li>
+                <li class="nav-item"><a href="@Url.Action("Index", "BaoCao")" class="nav-link"><i class="fa fa-file"></i><span>Báo cáo</span></a></li>
+
+            </ul>
+        </div>
+
+        <div class="text-center pb-3">
+            <button id="toggleSidebar"><i class="fa fa-angle-left"></i></button>
+        </div>
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div id="main-content" class="pt-5">
+        @RenderBody()
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById("toggleSidebar");
+        const sidebar = document.getElementById("sidebar");
+
+        toggleBtn.addEventListener("click", function () {
+            sidebar.classList.toggle("collapsed");
+            const icon = toggleBtn.querySelector("i");
+            if (sidebar.classList.contains("collapsed")) {
+                icon.classList.remove("fa-angle-left");
+                icon.classList.add("fa-angle-right");
+            } else {
+                icon.classList.remove("fa-angle-right");
+                icon.classList.add("fa-angle-left");
+            }
+        });
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,121 @@
+﻿@model QLBH.Models.KhuyenMai
+
+@{
+    ViewBag.Title = "Thêm khuyến mãi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .promo-container {
+        background: #fff;
+        border-radius: 12px;
+        padding: 30px;
+        margin-top: 30px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        color: #444;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    .validation-summary-errors {
+        background-color: #ffeaea;
+        border: 1px solid #ffb3b3;
+        color: #d8000c;
+        padding: 10px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .text-danger {
+        color: #d8000c;
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        border-radius: 8px;
+        padding: 8px 16px;
+        font-weight: 500;
+    }
+
+    .btn-success {
+        background: linear-gradient(90deg, #28a745, #5cd65c);
+        border: none;
+        color: white;
+    }
+
+        .btn-success:hover {
+            background: linear-gradient(90deg, #218838, #45c145);
+        }
+
+    .btn-secondary {
+        background: linear-gradient(90deg, #6c757d, #adb5bd);
+        border: none;
+        color: white;
+    }
+
+        .btn-secondary:hover {
+            background: linear-gradient(90deg, #5a6268, #8a959e);
+        }
+</style>
+
+<div class="promo-container">
+    <h2>Thêm khuyến mãi</h2>
+    <hr />
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        @* Hiển thị lỗi tổng quát *@
+        @Html.ValidationSummary(true, "", new { @class = "validation-summary-errors" })
+
+        <div class="form-group mb-3">
+            <label for="TenCT">Tên chương trình</label>
+            @Html.TextBoxFor(m => m.TenCT, new { @class = "form-control", placeholder = "Nhập tên chương trình..." })
+            @Html.ValidationMessageFor(m => m.TenCT, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="MoTa">Mô tả</label>
+            @Html.TextAreaFor(m => m.MoTa, new { @class = "form-control", placeholder = "Mô tả nội dung chương trình..." })
+            @Html.ValidationMessageFor(m => m.MoTa, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="NgayBD">Ngày bắt đầu</label>
+            @Html.TextBoxFor(m => m.NgayBD, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(m => m.NgayBD, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="NgayKT">Ngày kết thúc</label>
+            @Html.TextBoxFor(m => m.NgayKT, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(m => m.NgayKT, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="DieuKien">Điều kiện</label>
+            @Html.TextBoxFor(m => m.DieuKien, new { @class = "form-control", placeholder = "Nhập điều kiện áp dụng (nếu có)" })
+            @Html.ValidationMessageFor(m => m.DieuKien, "", new { @class = "text-danger" })
+        </div>
+
+        <button type="submit" class="btn btn-success">💾 Thêm khuyến mãi</button>
+        <a href="@Url.Action("Index", "QLKhuyenMai")" class="btn btn-secondary">⬅ Quay lại</a>
+    }
+</div>

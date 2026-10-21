@@ -1,0 +1,230 @@
+﻿@using QLBH.Models
+
+@{
+    var user = Session["TenDangNhap"];
+    var cart = Session["Cart"] as List<CartItem>;
+    if (cart == null)
+    {
+        cart = new List<CartItem>();
+    }
+
+    var wishList = Session["WishList"] as List<YeuThichItem>;
+    if (wishList == null)
+    {
+        wishList = new List<YeuThichItem>();
+    }
+
+    var khachHang = Session["KhachHang"] as KhachHangViewModel;
+
+    string avatarPath = "~/Content/images/no-image.png";
+
+    if (khachHang != null && !string.IsNullOrEmpty(khachHang.AnhDaiDien))
+    {
+        string anh = khachHang.AnhDaiDien.Trim();
+
+        if (anh.StartsWith("/images/", StringComparison.OrdinalIgnoreCase))
+        {
+            avatarPath = "~" + "/Content" + anh;
+        }
+        else if (anh.StartsWith("images/", StringComparison.OrdinalIgnoreCase))
+        {
+            avatarPath = "~/" + "Content/" + anh;
+        }
+        else if (!anh.Contains("/"))
+        {
+            avatarPath = "~/Content/images/khachhang/" + anh;
+        }
+        else if (anh.StartsWith("Content/", StringComparison.OrdinalIgnoreCase))
+        {
+            avatarPath = "~/" + anh;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - CEN HCM</title>
+
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        body {
+            padding-top: 72px !important;
+            background-color: #F5F6F8;
+        }
+
+        .navbar {
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            position: fixed !important;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-link {
+            color: #005F59 !important;
+            font-weight: 700;
+            margin: 0 8px;
+        }
+
+            .nav-link:hover {
+                color: #F9C341 !important;
+            }
+
+        .badge-custom, .cart-badge {
+            position: absolute;
+            top: -6px;
+            right: -8px;
+            background: #F9C341;
+            color: #005F59;
+            font-weight: bold;
+            font-size: 12px;
+            border-radius: 50%;
+            padding: 2px 6px;
+        }
+
+        .user-avatar {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            border: 2px solid #F9C341;
+            object-fit: cover;
+        }
+
+        .dropdown-menu {
+            min-width: 180px;
+        }
+        /* CSS cho Biểu tượng Chat */
+        #chat-icon-container {
+            position: fixed;
+            bottom: 20px; /* Cách lề dưới 20px */
+            right: 20px; /* Cách lề phải 20px */
+            z-index: 1050; /* Đảm bảo nằm trên các phần tử khác */
+        }
+
+        #chat-icon {
+            background-color: #F9C341; /* Màu nền vàng nổi bật */
+            color: #005F59; /* Màu chữ xanh */
+            border: none;
+            border-radius: 50%; /* Hình tròn */
+            width: 55px; /* Kích thước */
+            height: 55px;
+            font-size: 1.8rem; /* Kích thước biểu tượng */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Tạo bóng */
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            #chat-icon:hover {
+                background-color: #E6B033; /* Màu tối hơn khi hover */
+                transform: scale(1.05); /* Phóng to nhẹ khi hover */
+            }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark px-4">
+        <a class="navbar-brand" href="@Url.Action("Index","Home")">
+            <img src="~/Content/images/logo-cenhcm-white.jpg" height="60" />
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+            <ul class="navbar-nav mx-auto">
+                <li><a class="nav-link" href="@Url.Action("Index","Home")">Trang chủ</a></li>
+                <li><a class="nav-link" href="@Url.Action("DanhMuc","SanPham")">Sản phẩm</a></li>
+                <li><a class="nav-link" href="@Url.Action("Contact","Home")">Liên hệ</a></li>
+            </ul>
+
+            <ul class="navbar-nav">
+                @if (user == null)
+                {
+                    <li><a class="nav-link" href="@Url.Action("Login","Account")">Đăng nhập</a></li>
+                    <li><a class="nav-link" href="@Url.Action("Register","Account")">Đăng ký</a></li>
+                }
+                else
+                {
+                    <li class="nav-item position-relative me-3">
+                        <a class="nav-link" href="@Url.Action("Index","YeuThich")">
+                            <i class="fa-solid fa-heart" style="color:#F9C341;font-size:1.3rem;"></i>
+                            <span class="cart-badge">@wishList.Count</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item position-relative me-3">
+                        <a class="nav-link" href="@Url.Action("Index","GioHang")">
+                            <i class="fa-solid fa-cart-shopping" style="font-size:1.4rem;"></i>
+                            <span class="badge-custom">@cart.Select(item => item?.MaSP).Where(id => !string.IsNullOrEmpty(id)).Distinct().Count()</span>                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" data-bs-toggle="dropdown">
+                            <img src="@Url.Content(avatarPath)"
+                                 alt="Avatar"
+                                 class="user-avatar"
+                                 onerror="this.src='@Url.Content("~/Content/images/no-image.png")'" />
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("ThongTinCaNhan","Account")">
+                                    <i class="fa-solid fa-user me-2"></i>Thông tin cá nhân
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("Index","DonHang")">
+                                    <i class="fa-solid fa-receipt me-2"></i>Đơn hàng của tôi
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="@Url.Action("DoiMatKhau","Account")">
+                                    <i class="fa-solid fa-key me-2"></i>Đổi mật khẩu
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                                <a class="dropdown-item text-danger" href="@Url.Action("Logout","Account")">
+                                    <i class="fa-solid fa-right-from-bracket me-2"></i>Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container-fluid p-0">
+        @RenderBody()
+    </main>
+
+    <div id="chat-icon-container">
+        <button id="chat-icon" title="Chat với chúng tôi">
+            <i class="fa-solid fa-comment-dots"></i>
+        </button>
+    </div>
+
+    <script src="~/Scripts/jquery-3.6.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.getElementById('chat-icon').addEventListener('click', function() {
+        window.location.href = '@Url.Action("Index", "Chat")';
+    });
+    </script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

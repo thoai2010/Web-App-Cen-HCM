@@ -1,0 +1,175 @@
+﻿@model List<QLBH.Models.DonHangViewModel>
+@{
+    ViewBag.Title = "Đơn hàng của tôi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+    body { background:#F5F6F8; }
+
+    .order-card {
+        background:#fff;
+        border-radius:12px;
+        padding:20px;
+        margin-bottom:20px;
+        border:1px solid #e5e5e5;
+        box-shadow:0 4px 12px rgba(0,0,0,0.05);
+        transition:.25s;
+    }
+    .order-card:hover { transform: translateY(-3px); }
+
+    .order-header {
+        display:flex;
+        justify-content:space-between;
+        font-weight:700;
+        color:@cenGreen;
+        font-size:18px;
+    }
+
+    .order-status {
+        padding:6px 12px;
+        border-radius:8px;
+        font-weight:600;
+        font-size:14px;
+    }
+
+    .st-processing { background:#fff3cd; color:#b78500; }
+    .st-shipping { background:#d9e7ff; color:#005a9e; }
+    .st-done { background:#d4f8df; color:#0a873d; }
+    .st-cancel { background:#ffd4d4; color:#c30000; }
+
+    .product-item {
+        padding:12px 0;
+        border-bottom:1px solid #f2f2f2;
+        display:flex;
+        justify-content:space-between;
+    }
+    .product-name { font-weight:600; color:@cenGreen; }
+
+    .total-price {
+        font-size:20px;
+        font-weight:700;
+        color:@cenOrange;
+        margin-top:10px;
+    }
+
+    .tab-status a {
+        padding:10px 16px;
+        border-radius:8px;
+        border:1px solid #ddd;
+        margin-right:8px;
+        font-weight:600;
+        text-decoration:none;
+        color:#333;
+        transition:.2s;
+    }
+
+    .tab-status a.active {
+        background:@cenOrange;
+        color:white;
+        border-color:@cenOrange;
+        box-shadow:0 2px 6px rgba(0,0,0,0.15);
+    }
+</style>
+
+<div class="container mt-4">
+
+    <h2 class="fw-bold mb-4" style="color:@cenGreen;">Đơn hàng của tôi</h2>
+
+    <!-- TAB LỌC -->
+    <div class="tab-status mb-4">
+        <a href="?trangThai=TatCa" class="@(ViewBag.TrangThai=="TatCa"?"active":"")">Tất cả</a>
+        <a href="?trangThai=Đang xử lý" class="@(ViewBag.TrangThai=="Đang xử lý"?"active":"")">Đang xử lý</a>
+        <a href="?trangThai=Đang giao hàng" class="@(ViewBag.TrangThai=="Đang giao hàng"?"active":"")">Đang giao</a>
+        <a href="?trangThai=Hoàn thành" class="@(ViewBag.TrangThai=="Hoàn thành"?"active":"")">Hoàn thành</a>
+        <a href="?trangThai=Đã hủy" class="@(ViewBag.TrangThai=="Đã hủy"?"active":"")">Đã hủy</a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="text-center text-muted fs-5 mt-5">
+            <i class="fa fa-box-open fa-2x"></i><br />
+            Không có đơn hàng nào.
+        </div>
+    }
+
+    @foreach (var dh in Model)
+    {
+        <div class="order-card">
+
+            <div class="order-header">
+                <span>Mã đơn: @dh.MaDH.Trim()</span>
+
+                <span class="order-status
+                @(dh.TrangThai=="Đang xử lý"?"st-processing":
+                  dh.TrangThai=="Đang giao hàng"?"st-shipping":
+                  dh.TrangThai=="Hoàn thành"?"st-done":
+                  "st-cancel")">
+                    @dh.TrangThai
+                </span>
+            </div>
+
+            <div class="text-muted mt-1">
+                <i class="fa fa-calendar"></i> @dh.NgayDat.ToString("dd/MM/yyyy HH:mm")
+            </div>
+
+            <hr />
+
+            @foreach (var sp in dh.ChiTiet)
+            {
+                <div class="product-item">
+                    <div>
+                        <div class="product-name">@sp.TenSP</div>
+                        <div class="text-muted">x @sp.SoLuong</div>
+                    </div>
+                    <div class="fw-bold">@sp.ThanhTien.ToString("N0") ₫</div>
+                </div>
+            }
+
+            <div class="text-end total-price">
+                Tổng tiền: @dh.TongTien.ToString("N0") ₫
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+
+                <a href="/DonHang/ChiTiet?maDH=@dh.MaDH.Trim()" class="btn btn-outline-secondary">
+                    <i class="fa fa-eye"></i> Xem chi tiết
+                </a>
+
+                <!-- HỦY ĐƠN (CHỈ khi đang xử lý) -->
+                @if (dh.TrangThai == "Đang xử lý")
+                {
+                    <a href="/DonHang/Huy?maDH=@dh.MaDH.Trim()"
+                       class="btn btn-danger"
+                       onclick="return confirm('Bạn chắc chắn muốn hủy đơn hàng này?');">
+                        <i class="fa fa-times"></i> Hủy đơn
+                    </a>
+                }
+
+                <!-- HOÀN TIỀN (chỉ khi hoàn thành) -->
+                @if (dh.TrangThai == "Hoàn thành")
+                {
+                    <a href="/DonHang/XuLy?maDH=@dh.MaDH.Trim()&loai=HoanTien" class="btn btn-warning">
+                        <i class="fa fa-undo"></i> Hoàn tiền
+                    </a>
+                }
+
+                <!-- XÁC NHẬN NHẬN HÀNG -->
+                @if (dh.TrangThai == "Đang giao hàng")
+                {
+                    <form action="/DonHang/XacNhanDaNhan" method="post">
+                        <input type="hidden" name="maDH" value="@dh.MaDH.Trim()" />
+                        <button class="btn btn-success">
+                            <i class="fa fa-check"></i> Đã nhận hàng
+                        </button>
+                    </form>
+                }
+
+            </div>
+        </div>
+    }
+</div>

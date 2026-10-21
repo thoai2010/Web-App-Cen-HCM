@@ -1,0 +1,169 @@
+﻿@model List<QLBH.Models.ViewModels.PhieuXuLyViewModel>
+
+@{
+    ViewBag.Title = "Duyệt hoàn trả";
+    var role = Session["VaiTro"] != null ? Session["VaiTro"].ToString() : "";
+
+    if (role == "Admin" || role == "1")
+    {
+        Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_NhanVien.cshtml";
+    }
+}
+
+<style>
+    body {
+        padding-top: 80px !important;
+    }
+</style>
+
+<h2 class="mb-4">Danh sách yêu cầu hoàn trả</h2>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Mã PX</th>
+            <th>Mã đơn</th>
+            <th>Khách hàng</th>
+            <th>Ngày lập</th>
+            <th>Lý do</th>
+            <th>Trạng thái</th>
+            <th>Chi tiết</th>
+            <th>Duyệt</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var px in Model)
+        {
+            var idPX = px.MaPX.Trim().Replace(" ", "").Replace("\n", "").Replace("\r", "");
+
+            <tr>
+                <td>@px.MaPX</td>
+                <td>@px.MaDH</td>
+                <td>@px.TenKhachHang</td>
+                <td>@px.NgayLap.ToString("dd/MM/yyyy")</td>
+                <td>@px.LyDo</td>
+                <td><strong>@px.TrangThaiPX</strong></td>
+
+                <td>
+                    <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#ct_@idPX">
+                        Xem
+                    </button>
+
+                    <div class="modal fade" id="ct_@idPX" tabindex="-1">
+                        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+
+                                <div class="modal-header bg-primary text-white">
+                                    <h5 class="modal-title">Chi tiết phiếu xử lý - @px.MaPX</h5>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Mã SP</th>
+                                                <th>Tên SP</th>
+                                                <th>Số lượng</th>
+                                                <th>Đơn giá</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var ct in px.ChiTiet)
+                                            {
+                                                <tr>
+                                                    <td>@ct.MaSP</td>
+                                                    <td>@ct.TenSanPham</td>
+                                                    <td>@ct.SoLuong</td>
+                                                    <td>@ct.DonGia.ToString("N0") đ</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </td>
+
+                <td>
+                    @if (px.TrangThaiPX == "Chờ xử lý")
+                    {
+                        <button class="btn btn-success btn-sm btn-duyet" data-mapx="@px.MaPX" data-madh="@px.MaDH">Duyệt</button>
+                        <button class="btn btn-danger btn-sm btn-tuchoi" data-mapx="@px.MaPX">Từ chối</button>
+                    }
+                    else
+                    {
+                        <span>@px.TrangThaiPX</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section scripts {
+
+    <!-- jQuery BẮT BUỘC -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(".btn-duyet").click(function () {
+            let maPX = $(this).data("mapx");
+            let maDH = $(this).data("madh");
+
+            Swal.fire({
+                title: "Duyệt hoàn trả?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Duyệt",
+            }).then(res => {
+                if (res.isConfirmed) {
+
+                    $.post("/QLDonHang/DuyetHoanTra",
+                        { maPX: maPX, maDH: maDH },
+                        function (data) {
+                            Swal.fire(
+                                data.success ? "Thành công!" : "Lỗi",
+                                data.message,
+                                data.success ? "success" : "error"
+                            ).then(() => location.reload());
+                        });
+
+                }
+            });
+        });
+
+        $(".btn-tuchoi").click(function () {
+            let maPX = $(this).data("mapx");
+
+            Swal.fire({
+                title: "Từ chối yêu cầu hoàn trả?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Từ chối",
+            }).then(res => {
+                if (res.isConfirmed) {
+                    $.post("/QLDonHang/TuChoiHoanTra", { maPX }, function (data) {
+                        Swal.fire(data.success ? "Đã từ chối!" : "Lỗi",
+                            data.message,
+                            data.success ? "success" : "error")
+                            .then(() => location.reload());
+                    });
+                }
+            });
+        });
+    </script>
+}

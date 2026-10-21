@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Đổi mật khẩu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<style>
+.change-pass-card {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.1);
+}
+.change-pass-header {
+    background: @cenGreen;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 12px 12px 0 0;
+}
+.btn-cen {
+    background: @cenOrange;
+    color: white;
+    font-weight: bold;
+}
+.btn-cen:hover {
+    background: #e78919;
+    color: white;
+}
+.avatar-lock {
+    text-align: center;
+    margin-top: -60px;
+}
+.avatar-lock img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+</style>
+
+<div class="container my-5" style="max-width:520px;">
+
+    <div class="change-pass-header">
+        <i class="fa fa-lock"></i> Đổi mật khẩu
+    </div>
+
+    <div class="change-pass-card">
+
+    
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success text-center">@TempData["Message"]</div>
+        }
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger text-center">@TempData["Error"]</div>
+        }
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-key"></i> Mật khẩu hiện tại</label>
+                <input type="password" name="MatKhauCu" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold"><i class="fa fa-lock"></i> Mật khẩu mới</label>
+                <input type="password" name="MatKhauMoi" class="form-control" required />
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label fw-bold"><i class="fa fa-check-circle"></i> Xác nhận mật khẩu mới</label>
+                <input type="password" name="XacNhanMatKhau" class="form-control" required />
+            </div>
+
+            <button class="btn btn-cen w-100 rounded-3">
+                <i class="fa fa-save"></i> Lưu mật khẩu mới
+            </button>
+
+        }
+    </div>
+</div>

@@ -1,0 +1,157 @@
+﻿@model QLBH.Models.DonHangViewModel
+@{
+    ViewBag.Title = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<style>
+.order-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+.section-title {
+    font-weight: 700;
+    color: @cenGreen;
+    font-size: 20px;
+}
+.text-orange { color: @cenOrange; }
+.badge-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.badge-processing { background:#fff3cd; color:#b78500; }
+.badge-shipping { background:#d9e7ff; color:#005a9e; }
+.badge-done { background:#d4f8df; color:#0a873d; }
+.badge-cancel { background:#ffd4d4; color:#b30000; }
+
+.table td, .table th {
+    vertical-align: middle;
+}
+</style>
+
+<div class="container mt-4 mb-4">
+    <div class="order-box">
+        <h3 class="text-success fw-bold">
+            <i class="fa fa-file-invoice"></i> Chi tiết đơn hàng @Model.MaDH
+        </h3>
+
+        <p><b>Ngày đặt:</b> @Model.NgayDat.ToString("dd/MM/yyyy HH:mm")</p>
+
+        <p>
+            <b>Trạng thái:</b>
+
+            @if (Model.TrangThai == "Đang xử lý")
+            {
+                <span class="badge-status badge-processing">@Model.TrangThai</span>
+            }
+            else if (Model.TrangThai == "Đang giao hàng")
+            {
+                <span class="badge-status badge-shipping">@Model.TrangThai</span>
+            }
+            else if (Model.TrangThai == "Hoàn thành")
+            {
+                <span class="badge-status badge-done">@Model.TrangThai</span>
+            }
+            else
+            {
+                <span class="badge-status badge-cancel">@Model.TrangThai</span>
+            }
+        </p>
+
+        <hr />
+
+        <!-- THÔNG TIN KHÁCH -->
+        <h5 class="section-title"><i class="fa fa-user"></i> Thông tin khách hàng</h5>
+        <p><b>Họ tên:</b> @Model.HoTen</p>
+        <p><b>Email:</b> @Model.Email</p>
+        <p><b>SĐT:</b> @Model.SDT</p>
+        <p><b>Địa chỉ giao:</b> @Model.DiaChi</p>
+
+        <hr />
+
+        <!-- CHI TIẾT SẢN PHẨM -->
+        <h5 class="section-title"><i class="fa fa-box"></i> Sản phẩm trong đơn</h5>
+
+        <table class="table table-bordered table-hover mt-3">
+            <thead class="table-light">
+                <tr>
+                    <th>Mã SP</th>
+                    <th>Tên sản phẩm</th>
+                    <th class="text-center">SL</th>
+                    <th class="text-end">Đơn giá</th>
+                    <th class="text-end">Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ChiTiet)
+                {
+                    <tr>
+                        <td>@item.MaSP</td>
+                        <td>@item.TenSP</td>
+                        <td class="text-center">@item.SoLuong</td>
+                        <td class="text-end">@String.Format("{0:N0}₫", item.DonGia)</td>
+                        <td class="text-end text-orange fw-bold">
+                            @String.Format("{0:N0}₫", item.ThanhTien)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-end mt-3">
+            <h4 class="fw-bold">
+                Tổng tiền: <span class="text-orange">@String.Format("{0:N0}₫", Model.TongTien)</span>
+            </h4>
+        </div>
+
+        <hr />
+
+        <!-- NÚT XỬ LÝ TRẠNG THÁI -->
+        <div class="d-flex justify-content-between mt-3">
+
+            <a href="/DonHang" class="btn btn-secondary">
+                <i class="fa fa-arrow-left"></i> Quay lại
+            </a>
+
+            <div>
+                @* HỦY ĐƠN *@
+                @if (Model.TrangThai == "Đang xử lý")
+                {
+                    <a href="/DonHang/XuLy?maDH=@Model.MaDH&loai=HuyDon"
+                       class="btn btn-danger">
+                        <i class="fa fa-times"></i> Hủy đơn
+                    </a>
+                }
+
+                @* ĐÃ NHẬN HÀNG *@
+                @if (Model.TrangThai == "Đang giao hàng")
+                {
+                    <form action="/DonHang/XacNhanDaNhan" method="post" style="display:inline-block">
+                        <input type="hidden" name="maDH" value="@Model.MaDH" />
+                        <button class="btn btn-success">
+                            <i class="fa fa-check"></i> Đã nhận hàng
+                        </button>
+                    </form>
+                }
+
+                @* HOÀN TIỀN *@
+                @if (Model.TrangThai == "Hoàn thành")
+                {
+                    <a href="/DonHang/XuLy?maDH=@Model.MaDH&loai=HoanTien"
+                       class="btn btn-warning">
+                        <i class="fa fa-undo"></i> Hoàn tiền
+                    </a>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>

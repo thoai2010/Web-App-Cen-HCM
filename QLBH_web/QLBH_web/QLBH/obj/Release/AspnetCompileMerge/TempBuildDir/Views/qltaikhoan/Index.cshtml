@@ -1,0 +1,145 @@
+﻿@model IEnumerable<QLBH.Models.TaiKhoanViewModel>
+
+@{
+    ViewBag.Title = "Quản lý tài khoản";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    string cenGreen = "#005F59";
+    string cenOrange = "#F7941D";
+    string cenBg = "#F5F6F8";
+}
+
+<style>
+    body { background:@cenBg; }
+
+    .cen-title { color:@cenGreen; font-weight:700; }
+
+    .cen-table thead {
+        background:@cenGreen; color:white;
+    }
+    .cen-table tbody tr:hover {
+        background:#e8f5f4; transition:.25s;
+    }
+
+    .search-box {
+        border:2px solid @cenGreen;
+        padding:6px 12px;
+        border-radius:6px;
+        width:260px;
+    }
+    .search-box:focus { border-color:@cenOrange; }
+
+    .btn-add {
+        background:@cenOrange !important;
+        color:white !important;
+        font-weight:600;
+        padding:7px 12px;
+        border-radius:6px;
+    }
+    .btn-add:hover { background:#ffa64c !important; }
+
+    .btn-small {
+        padding:5px 10px; font-weight:600; border-radius:6px;
+    }
+
+    .btn-role {
+        border:2px solid @cenOrange; color:@cenOrange;
+    }
+    .btn-role:hover {
+        background:@cenOrange; color:white;
+    }
+
+    .btn-status {
+        border:2px solid @cenGreen; color:@cenGreen;
+    }
+    .btn-status:hover {
+        background:@cenGreen; color:white;
+    }
+</style>
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="cen-title">
+            <i class="bi bi-people-fill"></i> Quản lý tài khoản
+        </h2>
+
+        <div class="d-flex gap-2">
+            @using (Html.BeginForm("Index", "QLTaiKhoan", FormMethod.Get))
+            {
+                <input type="text" name="search" class="form-control search-box"
+                       placeholder="🔍 Tìm tên đăng nhập..."
+                       value="@Request["search"]" />
+            }
+
+            <a href="@Url.Action("Create","QLTaiKhoan")" class="btn btn-add">
+                <i class="bi bi-person-plus"></i> Tạo tài khoản
+            </a>
+        </div>
+    </div>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-0">
+
+            <table class="table table-hover text-center mb-0 cen-table">
+                <thead>
+                    <tr>
+                        <th>Tên đăng nhập</th>
+                        <th>Vai trò</th>
+                        <th>Trạng thái</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var tk in Model)
+                        {
+                            <tr>
+                                <td>@tk.TenDangNhap</td>
+                                <td>@tk.VaiTro</td>
+                                <td>@tk.TrangThai</td>
+                                <td class="d-flex justify-content-center gap-2">
+
+                                    @if (tk.VaiTro != "KhachHang")
+                                    {
+                                        <form action="@Url.Action("ChangeRole","QLTaiKhoan")" method="post">
+                                            <input type="hidden" name="tenDangNhap" value="@tk.TenDangNhap" />
+                                            <input type="hidden" name="vaiTro" value="@tk.VaiTro" />
+                                            <button type="submit" class="btn btn-small btn-role">
+                                                <i class="bi bi-shuffle"></i> Vai trò
+                                            </button>
+                                        </form>
+                                    }
+
+                                    <form action="@Url.Action("ChangeStatus","QLTaiKhoan")" method="post">
+                                        <input type="hidden" name="tenDangNhap" value="@tk.TenDangNhap" />
+                                        <input type="hidden" name="trangThai" value="@tk.TrangThai" />
+                                        <button type="submit" class="btn btn-small btn-status">
+                                            <i class="bi bi-toggle2-on"></i> Trạng thái
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-muted py-3">Không có tài khoản nào.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
